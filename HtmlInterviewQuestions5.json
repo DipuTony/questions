@@ -1,0 +1,2025 @@
+[
+    {
+        "id": 1,
+        "topicId": 5,
+        "questionId": 1,
+        "question": "What is HTML?",
+        "answer": [
+            "HTML (HyperText Markup Language) is the standard language for creating web pages and web applications."
+        ]
+    },
+    {
+        "id": 2,
+        "topicId": 5,
+        "questionId": 2,
+        "question": "What does an HTML element consist of?",
+        "answer": [
+            "An HTML element consists of a start tag, content, and an end tag.",
+            "```html",
+            "<p>This is a paragraph.</p>",
+            "```"
+        ]
+    },
+    {
+        "id": 3,
+        "topicId": 5,
+        "questionId": 3,
+        "question": "What is the purpose of the <!DOCTYPE> declaration?",
+        "answer": [
+            "The <!DOCTYPE> declaration defines the document type and version of HTML. It helps the browser render the content correctly.",
+            "```html",
+            "<!DOCTYPE html>",
+            "```"
+        ]
+    },
+    {
+        "id": 4,
+        "topicId": 5,
+        "questionId": 4,
+        "question": "How do you create a hyperlink in HTML?",
+        "answer": [
+            "To create a hyperlink, use the <a> tag with the href attribute.",
+            "```html",
+            "<a href='https://www.example.com'>Visit Example</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 5,
+        "topicId": 5,
+        "questionId": 5,
+        "question": "What is the difference between <div> and <span> tags?",
+        "answer": [
+            "<div> is a block-level element used for structuring sections of a page, while <span> is an inline element used for styling parts of text.",
+            "```html",
+            "<div>This is a block element.</div>",
+            "<span>This is an inline element.</span>",
+            "```"
+        ]
+    },
+    {
+        "id": 6,
+        "topicId": 5,
+        "questionId": 6,
+        "question": "What is an HTML attribute?",
+        "answer": [
+            "HTML attributes provide additional information about an element, such as id, class, src, href, etc.",
+            "```html",
+            "<img src='image.jpg' alt='Image description'>",
+            "```"
+        ]
+    },
+    {
+        "id": 7,
+        "topicId": 5,
+        "questionId": 7,
+        "question": "What is the use of the <meta> tag in HTML?",
+        "answer": [
+            "The <meta> tag provides metadata about the HTML document, such as character set, description, keywords, author, and viewport settings.",
+            "```html",
+            "<meta charset='UTF-8'>",
+            "<meta name='description' content='Free Web tutorials'>",
+            "<meta name='keywords' content='HTML, CSS, JavaScript'>",
+            "<meta name='author' content='John Doe'>",
+            "```"
+        ]
+    },
+    {
+        "id": 8,
+        "topicId": 5,
+        "questionId": 8,
+        "question": "What is the purpose of the <head> tag?",
+        "answer": [
+            "The <head> tag contains metadata, links to stylesheets, scripts, and other information that is not directly displayed on the web page.",
+            "```html",
+            "<head>",
+            "  <title>Page Title</title>",
+            "  <link rel='stylesheet' href='styles.css'>",
+            "</head>",
+            "```"
+        ]
+    },
+    {
+        "id": 9,
+        "topicId": 5,
+        "questionId": 9,
+        "question": "What is the role of the <title> tag in HTML?",
+        "answer": [
+            "The <title> tag sets the title of the web page, which appears in the browser's title bar or tab.",
+            "```html",
+            "<title>My Web Page</title>",
+            "```"
+        ]
+    },
+    {
+        "id": 10,
+        "topicId": 5,
+        "questionId": 10,
+        "question": "What are semantic HTML elements?",
+        "answer": [
+            "Semantic HTML elements clearly describe their meaning in a human- and machine-readable way. Examples include <article>, <section>, <nav>, <header>, and <footer>.",
+            "```html",
+            "<article>This is an article.</article>",
+            "<nav>This is a navigation section.</nav>",
+            "```"
+        ]
+    },
+    {
+        "id": 11,
+        "topicId": 5,
+        "questionId": 11,
+        "question": "What is the difference between <ul> and <ol> tags?",
+        "answer": [
+            "<ul> is used for unordered lists, while <ol> is used for ordered lists.",
+            "```html",
+            "<ul>",
+            "  <li>Item 1</li>",
+            "  <li>Item 2</li>",
+            "</ul>",
+            "<ol>",
+            "  <li>First Item</li>",
+            "  <li>Second Item</li>",
+            "</ol>",
+            "```"
+        ]
+    },
+    {
+        "id": 12,
+        "topicId": 5,
+        "questionId": 12,
+        "question": "How do you embed an image in HTML?",
+        "answer": [
+            "Use the <img> tag with the src attribute to embed an image.",
+            "```html",
+            "<img src='image.jpg' alt='Description of image'>",
+            "```"
+        ]
+    },
+    {
+        "id": 13,
+        "topicId": 5,
+        "questionId": 13,
+        "question": "What is the purpose of the <form> tag?",
+        "answer": [
+            "The <form> tag is used to create an HTML form for user input.",
+            "```html",
+            "<form action='/submit-form' method='post'>",
+            "  <input type='text' name='username'>",
+            "  <input type='submit' value='Submit'>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 14,
+        "topicId": 5,
+        "questionId": 14,
+        "question": "What are the different types of input elements in HTML forms?",
+        "answer": [
+            "HTML forms support various input types such as text, password, email, number, radio, checkbox, file, and submit.",
+            "```html",
+            "<input type='text' name='name'>",
+            "<input type='password' name='password'>",
+            "<input type='email' name='email'>",
+            "<input type='number' name='age'>",
+            "<input type='radio' name='gender' value='male'>",
+            "<input type='checkbox' name='subscribe'>",
+            "<input type='file' name='resume'>",
+            "<input type='submit' value='Submit'>",
+            "```"
+        ]
+    },
+    {
+        "id": 15,
+        "topicId": 5,
+        "questionId": 15,
+        "question": "What is the <table> tag used for?",
+        "answer": [
+            "The <table> tag is used to create a table in HTML.",
+            "```html",
+            "<table>",
+            "  <tr>",
+            "    <th>Header 1</th>",
+            "    <th>Header 2</th>",
+            "  </tr>",
+            "  <tr>",
+            "    <td>Data 1</td>",
+            "    <td>Data 2</td>",
+            "  </tr>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 16,
+        "topicId": 5,
+        "questionId": 16,
+        "question": "How do you add a comment in HTML?",
+        "answer": [
+            "Comments in HTML are added using the <!-- --> syntax.",
+            "```html",
+            "<!-- This is a comment -->",
+            "```"
+        ]
+    },
+    {
+        "id": 17,
+        "topicId": 5,
+        "questionId": 17,
+        "question": "What is the purpose of the <link> tag?",
+        "answer": [
+            "The <link> tag defines the relationship between a document and an external resource, typically used to link to stylesheets.",
+            "```html",
+            "<link rel='stylesheet' href='styles.css'>",
+            "```"
+        ]
+    },
+    {
+        "id": 18,
+        "topicId": 5,
+        "questionId": 18,
+        "question": "What is the use of the <br> tag?",
+        "answer": [
+            "The <br> tag inserts a single line break.",
+            "```html",
+            "Line 1<br>Line 2",
+            "```"
+        ]
+    },
+    {
+        "id": 19,
+        "topicId": 5,
+        "questionId": 19,
+        "question": "How do you define a list item in HTML?",
+        "answer": [
+            "Use the <li> tag to define a list item, which can be part of an ordered (<ol>) or unordered (<ul>) list.",
+            "```html",
+            "<ul>",
+            "  <li>Item 1</li>",
+            "  <li>Item 2</li>",
+            "</ul>",
+            "```"
+        ]
+    },
+    {
+        "id": 20,
+        "topicId": 5,
+        "questionId": 20,
+        "question": "What is the purpose of the <button> tag?",
+        "answer": [
+            "The <button> tag defines a clickable button.",
+            "```html",
+            "<button type='button'>Click Me!</button>",
+            "```"
+        ]
+    },
+    {
+        "id": 21,
+        "topicId": 5,
+        "questionId": 21,
+        "question": "What is the purpose of the `<!DOCTYPE html>` declaration?",
+        "answer": [
+            "The `<!DOCTYPE html>` declaration defines the document type and version of HTML. It ensures that the browser renders the page in standards mode."
+        ]
+    },
+    {
+        "id": 22,
+        "topicId": 5,
+        "questionId": 22,
+        "question": "What is the difference between `<div>` and `<span>`?",
+        "answer": [
+            "`<div>` is a block-level element used for grouping and layout, while `<span>` is an inline element used for styling a portion of text or other inline elements."
+        ]
+    },
+    {
+        "id": 23,
+        "topicId": 5,
+        "questionId": 23,
+        "question": "How do you include CSS in an HTML document?",
+        "answer": [
+            "CSS can be included in an HTML document using a `<style>` tag within the `<head>` section, an external stylesheet linked with a `<link>` tag, or inline styles using the `style` attribute."
+        ]
+    },
+    {
+        "id": 24,
+        "topicId": 5,
+        "questionId": 24,
+        "question": "What is the purpose of the `<meta>` tag in HTML?",
+        "answer": [
+            "The `<meta>` tag provides metadata about the HTML document, such as character encoding, author, and viewport settings."
+        ]
+    },
+    {
+        "id": 25,
+        "topicId": 5,
+        "questionId": 25,
+        "question": "How do you create a hyperlink in HTML?",
+        "answer": [
+            "A hyperlink is created using the `<a>` tag with the `href` attribute specifying the URL. Example:",
+            "```html",
+            "<a href='https://www.example.com'>Visit Example</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 26,
+        "topicId": 5,
+        "questionId": 26,
+        "question": "What is the purpose of the `alt` attribute in an `<img>` tag?",
+        "answer": [
+            "The `alt` attribute provides alternative text for an image if it cannot be displayed. It also improves accessibility for screen readers."
+        ]
+    },
+    {
+        "id": 27,
+        "topicId": 5,
+        "questionId": 27,
+        "question": "How do you create a form in HTML?",
+        "answer": [
+            "A form is created using the `<form>` tag. It can contain various input elements like `<input>`, `<textarea>`, `<button>`, and `<select>`. Example:",
+            "```html",
+            "<form action='/submit' method='post'>",
+            "  <input type='text' name='username' />",
+            "  <input type='submit' value='Submit' />",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 28,
+        "topicId": 5,
+        "questionId": 28,
+        "question": "What are semantic HTML elements?",
+        "answer": [
+            "Semantic HTML elements clearly describe their meaning in a human- and machine-readable way. Examples include `<header>`, `<footer>`, `<article>`, and `<section>`."
+        ]
+    },
+    {
+        "id": 29,
+        "topicId": 5,
+        "questionId": 29,
+        "question": "How do you create a table in HTML?",
+        "answer": [
+            "A table is created using the `<table>` tag, and it contains `<tr>` for rows, `<th>` for headers, and `<td>` for data cells. Example:",
+            "```html",
+            "<table>",
+            "  <tr>",
+            "    <th>Header 1</th>",
+            "    <th>Header 2</th>",
+            "  </tr>",
+            "  <tr>",
+            "    <td>Data 1</td>",
+            "    <td>Data 2</td>",
+            "  </tr>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 30,
+        "topicId": 5,
+        "questionId": 30,
+        "question": "What is the purpose of the `placeholder` attribute in an `<input>` element?",
+        "answer": [
+            "The `placeholder` attribute provides a hint to the user about what to enter in an input field. It displays a short hint within the input box when it is empty."
+        ]
+    },
+    {
+        "id": 31,
+        "topicId": 5,
+        "questionId": 31,
+        "question": "How do you embed a video in HTML?",
+        "answer": [
+            "A video is embedded using the `<video>` tag with `src` and optional attributes like `controls` and `autoplay`. Example:",
+            "```html",
+            "<video src='video.mp4' controls></video>",
+            "```"
+        ]
+    },
+    {
+        "id": 32,
+        "topicId": 5,
+        "questionId": 32,
+        "question": "How do you create a list in HTML?",
+        "answer": [
+            "Lists can be created using ordered (`<ol>`) or unordered (`<ul>`) list tags. Each item in the list is represented by an `<li>` tag. Example:",
+            "```html",
+            "<ul>",
+            "  <li>Item 1</li>",
+            "  <li>Item 2</li>",
+            "</ul>",
+            "<ol>",
+            "  <li>First item</li>",
+            "  <li>Second item</li>",
+            "</ol>",
+            "```"
+        ]
+    },
+    {
+        "id": 33,
+        "topicId": 5,
+        "questionId": 33,
+        "question": "What is the `title` attribute used for in HTML elements?",
+        "answer": [
+            "The `title` attribute provides additional information about an element, often displayed as a tooltip when the mouse hovers over the element."
+        ]
+    },
+    {
+        "id": 34,
+        "topicId": 5,
+        "questionId": 34,
+        "question": "How do you define a section of a page that contains a navigation menu?",
+        "answer": [
+            "A section for a navigation menu is typically defined using the `<nav>` element. Example:",
+            "```html",
+            "<nav>",
+            "  <ul>",
+            "    <li><a href='#home'>Home</a></li>",
+            "    <li><a href='#about'>About</a></li>",
+            "  </ul>",
+            "</nav>",
+            "```"
+        ]
+    },
+    {
+        "id": 35,
+        "topicId": 5,
+        "questionId": 35,
+        "question": "What is the difference between the `<strong>` and `<b>` tags?",
+        "answer": [
+            "The `<strong>` tag indicates that the text is of strong importance and is typically rendered in bold, while the `<b>` tag is purely for styling and does not convey any special importance."
+        ]
+    },
+    {
+        "id": 36,
+        "topicId": 5,
+        "questionId": 36,
+        "question": "How do you create a hyperlink that opens in a new tab?",
+        "answer": [
+            "A hyperlink that opens in a new tab is created using the `target='_blank'` attribute. Example:",
+            "```html",
+            "<a href='https://www.example.com' target='_blank'>Open Example in New Tab</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 37,
+        "topicId": 5,
+        "questionId": 37,
+        "question": "How can you make an element hidden but still occupy space in the layout?",
+        "answer": [
+            "To hide an element but still keep it in the layout, use `visibility: hidden` in CSS. Example:",
+            "```css",
+            ".hidden-element {",
+            "  visibility: hidden;",
+            "}",
+            "```"
+        ]
+    },
+    {
+        "id": 38,
+        "topicId": 5,
+        "questionId": 38,
+        "question": "What is the `data-*` attribute used for?",
+        "answer": [
+            "The `data-*` attribute is used to store custom data attributes on HTML elements. Example:",
+            "```html",
+            "<div data-custom='value'>Content</div>",
+            "```"
+        ]
+    },
+    {
+        "id": 39,
+        "topicId": 5,
+        "questionId": 39,
+        "question": "How do you include JavaScript in an HTML document?",
+        "answer": [
+            "JavaScript can be included in an HTML document using the `<script>` tag. It can be placed within the `<head>` or `<body>` section. Example:",
+            "```html",
+            "<script src='script.js'></script>",
+            "```"
+        ]
+    },
+    {
+        "id": 40,
+        "topicId": 5,
+        "questionId": 40,
+        "question": "What is the purpose of the `<header>` element?",
+        "answer": [
+            "The `<header>` element represents the introductory content or a set of navigational links. It is typically used at the top of a section or page."
+        ]
+    },
+    {
+        "id": 41,
+        "topicId": 5,
+        "questionId": 41,
+        "question": "How do you specify the character encoding for an HTML document?",
+        "answer": [
+            "The character encoding is specified using the `<meta charset='UTF-8'>` tag within the `<head>` section of the document."
+        ]
+    },
+    {
+        "id": 42,
+        "topicId": 5,
+        "questionId": 42,
+        "question": "What are `<article>` and `<section>` elements used for?",
+        "answer": [
+            "`<article>` represents a self-contained piece of content, such as a blog post, while `<section>` is used to group related content within a document."
+        ]
+    },
+    {
+        "id": 43,
+        "topicId": 5,
+        "questionId": 43,
+        "question": "How do you create a dropdown menu in HTML?",
+        "answer": [
+            "A dropdown menu is created using the `<select>` tag with nested `<option>` tags. Example:",
+            "```html",
+            "<select>",
+            "  <option value='1'>Option 1</option>",
+            "  <option value='2'>Option 2</option>",
+            "</select>",
+            "```"
+        ]
+    },
+    {
+        "id": 44,
+        "topicId": 5,
+        "questionId": 44,
+        "question": "What is the purpose of the `role` attribute in HTML?",
+        "answer": [
+            "The `role` attribute specifies the role of an element, which helps assistive technologies understand the type of content it represents."
+        ]
+    },
+    {
+        "id": 45,
+        "topicId": 5,
+        "questionId": 45,
+        "question": "How do you embed a Google Map in HTML?",
+        "answer": [
+            "A Google Map is embedded using an `<iframe>` tag with the map URL provided by Google Maps. Example:",
+            "```html",
+            "<iframe",
+            "  src='https://www.google.com/maps/embed?...'",
+            "  width='600' height='450'",
+            "  style='border:0;'",
+            "  allowfullscreen=''",
+            "  loading='lazy'",
+            "></iframe>",
+            "```"
+        ]
+    },
+    {
+        "id": 46,
+        "topicId": 5,
+        "questionId": 46,
+        "question": "How do you create a radio button group in HTML?",
+        "answer": [
+            "A radio button group is created using multiple `<input type='radio'>` elements with the same `name` attribute. Example:",
+            "```html",
+            "<label><input type='radio' name='group' value='1' /> Option 1</label>",
+            "<label><input type='radio' name='group' value='2' /> Option 2</label>",
+            "```"
+        ]
+    },
+    {
+        "id": 47,
+        "topicId": 5,
+        "questionId": 47,
+        "question": "What is the difference between the `<i>` and `<em>` tags?",
+        "answer": [
+            "The `<i>` tag is used for styling text in italics, while the `<em>` tag indicates emphasized text, which typically renders as italics but also conveys semantic meaning."
+        ]
+    },
+    {
+        "id": 48,
+        "topicId": 5,
+        "questionId": 48,
+        "question": "How do you create a list with checkboxes in HTML?",
+        "answer": [
+            "A list with checkboxes is created using `<input type='checkbox'>` elements within `<li>` tags. Example:",
+            "```html",
+            "<ul>",
+            "  <li><input type='checkbox' /> Item 1</li>",
+            "  <li><input type='checkbox' /> Item 2</li>",
+            "</ul>",
+            "```"
+        ]
+    },
+    {
+        "id": 49,
+        "topicId": 5,
+        "questionId": 49,
+        "question": "What is the `name` attribute used for in HTML forms?",
+        "answer": [
+            "The `name` attribute is used to identify form elements when submitting form data to the server. It defines the name of the data that will be sent."
+        ]
+    },
+    {
+        "id": 50,
+        "topicId": 5,
+        "questionId": 50,
+        "question": "How do you create a file upload input in HTML?",
+        "answer": [
+            "A file upload input is created using the `<input type='file'>` element. Example:",
+            "```html",
+            "<input type='file' name='fileUpload' />",
+            "```"
+        ]
+    },
+    {
+        "id": 51,
+        "topicId": 5,
+        "questionId": 51,
+        "question": "How do you include an external CSS stylesheet in an HTML document?",
+        "answer": [
+            "An external CSS stylesheet is included using the `<link>` tag within the `<head>` section. Example:",
+            "```html",
+            "<link rel='stylesheet' href='styles.css' />",
+            "```"
+        ]
+    },
+    {
+        "id": 52,
+        "topicId": 5,
+        "questionId": 52,
+        "question": "What is the difference between the `<button>` and `<input type='button'>` elements?",
+        "answer": [
+            "Both elements create a button, but `<button>` allows more flexibility in terms of content and styling, whereas `<input type='button'>` is more limited."
+        ]
+    },
+    {
+        "id": 53,
+        "topicId": 5,
+        "questionId": 53,
+        "question": "How do you create a clickable image in HTML?",
+        "answer": [
+            "A clickable image is created by wrapping an `<img>` tag within an `<a>` tag. Example:",
+            "```html",
+            "<a href='https://www.example.com'>",
+            "  <img src='image.jpg' alt='Example Image' />",
+            "</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 54,
+        "topicId": 5,
+        "questionId": 54,
+        "question": "How do you add comments in HTML?",
+        "answer": [
+            "Comments in HTML are added using `<!-- comment text -->`. Example:",
+            "```html",
+            "<!-- This is a comment -->",
+            "```"
+        ]
+    },
+    {
+        "id": 55,
+        "topicId": 5,
+        "questionId": 55,
+        "question": "How do you set the default value for an input field in HTML?",
+        "answer": [
+            "The default value for an input field is set using the `value` attribute. Example:",
+            "```html",
+            "<input type='text' value='Default Value' />",
+            "```"
+        ]
+    },
+    {
+        "id": 56,
+        "topicId": 5,
+        "questionId": 56,
+        "question": "What is the purpose of the `<footer>` element?",
+        "answer": [
+            "The `<footer>` element represents the footer of a section or page, typically containing metadata, copyright information, or contact details."
+        ]
+    },
+    {
+        "id": 57,
+        "topicId": 5,
+        "questionId": 57,
+        "question": "How do you create a textarea in HTML?",
+        "answer": [
+            "A textarea is created using the `<textarea>` tag. Example:",
+            "```html",
+            "<textarea rows='4' cols='50'>Default text</textarea>",
+            "```"
+        ]
+    },
+    {
+        "id": 58,
+        "topicId": 5,
+        "questionId": 58,
+        "question": "What is the `method` attribute in a form used for?",
+        "answer": [
+            "The `method` attribute specifies the HTTP method (GET or POST) the browser uses to submit the form data."
+        ]
+    },
+    {
+        "id": 59,
+        "topicId": 5,
+        "questionId": 59,
+        "question": "How do you create a hidden input field in HTML?",
+        "answer": [
+            "A hidden input field is created using `<input type='hidden'>`. Example:",
+            "```html",
+            "<input type='hidden' name='hiddenField' value='hiddenValue' />",
+            "```"
+        ]
+    },
+    {
+        "id": 60,
+        "topicId": 5,
+        "questionId": 60,
+        "question": "How do you define a custom data attribute in HTML?",
+        "answer": [
+            "A custom data attribute is defined using `data-*` syntax. Example:",
+            "```html",
+            "<div data-custom='value'>Content</div>",
+            "```"
+        ]
+    },
+    {
+        "id": 61,
+        "topicId": 5,
+        "questionId": 61,
+        "question": "What is the `target` attribute used for in a hyperlink?",
+        "answer": [
+            "The `target` attribute specifies where to open the linked document. For example, `target='_blank'` opens the link in a new tab."
+        ]
+    },
+    {
+        "id": 62,
+        "topicId": 5,
+        "questionId": 62,
+        "question": "How do you define a responsive meta viewport in HTML?",
+        "answer": [
+            "A responsive meta viewport is defined using `<meta name='viewport' content='width=device-width, initial-scale=1.0'>` in the `<head>` section."
+        ]
+    },
+    {
+        "id": 63,
+        "topicId": 5,
+        "questionId": 63,
+        "question": "How do you create a collapsible section in HTML?",
+        "answer": [
+            "Collapsible sections are typically created using a combination of `<details>` and `<summary>` tags. Example:",
+            "```html",
+            "<details>",
+            "  <summary>Click to expand</summary>",
+            "  <p>Collapsed content goes here.</p>",
+            "</details>",
+            "```"
+        ]
+    },
+    {
+        "id": 64,
+        "topicId": 5,
+        "questionId": 64,
+        "question": "What is the `disabled` attribute used for in HTML form elements?",
+        "answer": [
+            "The `disabled` attribute disables the form element, making it unmodifiable and unsubmitable. Example:",
+            "```html",
+            "<input type='text' disabled />",
+            "```"
+        ]
+    },
+    {
+        "id": 65,
+        "topicId": 5,
+        "questionId": 65,
+        "question": "How do you add a tooltip to an element in HTML?",
+        "answer": [
+            "A tooltip is added using the `title` attribute. Example:",
+            "```html",
+            "<button title='This is a tooltip'>Hover me</button>",
+            "```"
+        ]
+    },
+    {
+        "id": 66,
+        "topicId": 5,
+        "questionId": 66,
+        "question": "What is the difference between `<strong>` and `<b>` tags?",
+        "answer": [
+            "`<strong>` represents strong importance and typically renders as bold, whereas `<b>` simply styles text as bold without semantic meaning."
+        ]
+    },
+    {
+        "id": 67,
+        "topicId": 5,
+        "questionId": 67,
+        "question": "How do you create a button that submits a form in HTML?",
+        "answer": [
+            "A submit button is created using `<button type='submit'>` or `<input type='submit'>`. Example:",
+            "```html",
+            "<button type='submit'>Submit</button>",
+            "```"
+        ]
+    },
+    {
+        "id": 68,
+        "topicId": 5,
+        "questionId": 68,
+        "question": "What is the purpose of the `<base>` tag?",
+        "answer": [
+            "The `<base>` tag specifies a base URL for all relative URLs in a document, affecting the `href` and `src` attributes."
+        ]
+    },
+    {
+        "id": 69,
+        "topicId": 5,
+        "questionId": 69,
+        "question": "How do you include an external JavaScript file in HTML?",
+        "answer": [
+            "An external JavaScript file is included using the `<script src='file.js'>` tag. Example:",
+            "```html",
+            "<script src='script.js'></script>",
+            "```"
+        ]
+    },
+    {
+        "id": 70,
+        "topicId": 5,
+        "questionId": 70,
+        "question": "How do you define an HTML comment?",
+        "answer": [
+            "An HTML comment is defined using `<!-- comment text -->`. Example:",
+            "```html",
+            "<!-- This is a comment -->",
+            "```"
+        ]
+    },
+    {
+        "id": 71,
+        "topicId": 5,
+        "questionId": 71,
+        "question": "What is the difference between `<link>` and `<a>` tags?",
+        "answer": [
+            "The `<link>` tag is used to link external resources like stylesheets, while the `<a>` tag creates hyperlinks to other documents or resources."
+        ]
+    },
+    {
+        "id": 72,
+        "topicId": 5,
+        "questionId": 72,
+        "question": "How do you set up an HTML5 audio element?",
+        "answer": [
+            "An HTML5 audio element is set up using the `<audio>` tag. Example:",
+            "```html",
+            "<audio controls>",
+            "  <source src='audio.mp3' type='audio/mpeg'>",
+            "  Your browser does not support the audio element.",
+            "</audio>",
+            "```"
+        ]
+    },
+    {
+        "id": 73,
+        "topicId": 5,
+        "questionId": 73,
+        "question": "What is the purpose of the `<label>` tag in forms?",
+        "answer": [
+            "The `<label>` tag is used to define labels for form controls, which improve accessibility and usability. Example:",
+            "```html",
+            "<label for='username'>Username:</label>",
+            "<input type='text' id='username' name='username' />",
+            "```"
+        ]
+    },
+    {
+        "id": 74,
+        "topicId": 5,
+        "questionId": 74,
+        "question": "How do you include an icon from a font library in HTML?",
+        "answer": [
+            "An icon from a font library (like Font Awesome) is included using the appropriate `<i>` or `<span>` tag with a class. Example:",
+            "```html",
+            "<i class='fa fa-camera'></i>",
+            "```"
+        ]
+    },
+    {
+        "id": 75,
+        "topicId": 5,
+        "questionId": 75,
+        "question": "What are the differences between `<section>`, `<article>`, and `<div>`?",
+        "answer": [
+            "`<section>` groups related content, `<article>` represents self-contained content, and `<div>` is a generic container without semantic meaning."
+        ]
+    },
+    {
+        "id": 76,
+        "topicId": 5,
+        "questionId": 76,
+        "question": "How do you make a part of an HTML document printable?",
+        "answer": [
+            "To make a part of an HTML document printable, use CSS with `@media print` rules to style content specifically for printing."
+        ]
+    },
+    {
+        "id": 77,
+        "topicId": 5,
+        "questionId": 77,
+        "question": "How do you add an external web font to your HTML page?",
+        "answer": [
+            "External web fonts are added using the `<link>` tag with the `href` pointing to the font service. Example:",
+            "```html",
+            "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'>",
+            "```"
+        ]
+    },
+    {
+        "id": 78,
+        "topicId": 5,
+        "questionId": 78,
+        "question": "What is the purpose of the `<figure>` and `<figcaption>` elements?",
+        "answer": [
+            "`<figure>` is used for self-contained content, such as images or diagrams, and `<figcaption>` provides a caption for the content within `<figure>`."
+        ]
+    },
+    {
+        "id": 79,
+        "topicId": 5,
+        "questionId": 79,
+        "question": "How do you create a form that submits data via AJAX?",
+        "answer": [
+            "To submit data via AJAX, use JavaScript to intercept the form submission and send data asynchronously. Example:",
+            "```html",
+            "<form id='myForm'>",
+            "  <input type='text' name='data' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "<script>",
+            "  document.getElementById('myForm').addEventListener('submit', function(event) {",
+            "    event.preventDefault();",
+            "    var formData = new FormData(this);",
+            "    fetch('/submit', {",
+            "      method: 'POST',",
+            "      body: formData",
+            "    }).then(response => response.json())",
+            "      .then(data => console.log(data));",
+            "  });",
+            "</script>",
+            "```"
+        ]
+    },
+    {
+        "id": 80,
+        "topicId": 5,
+        "questionId": 80,
+        "question": "How do you specify the width and height of an image in HTML?",
+        "answer": [
+            "The width and height of an image are specified using the `width` and `height` attributes in the `<img>` tag. Example:",
+            "```html",
+            "<img src='image.jpg' width='300' height='200' />",
+            "```"
+        ]
+    },
+    {
+        "id": 81,
+        "topicId": 5,
+        "questionId": 81,
+        "question": "How do you create a checkbox group in HTML?",
+        "answer": [
+            "A checkbox group is created using multiple `<input type='checkbox'>` elements with different values. Example:",
+            "```html",
+            "<label><input type='checkbox' name='checkboxGroup' value='1' /> Option 1</label>",
+            "<label><input type='checkbox' name='checkboxGroup' value='2' /> Option 2</label>",
+            "```"
+        ]
+    },
+    {
+        "id": 82,
+        "topicId": 5,
+        "questionId": 82,
+        "question": "What is the use of the `placeholder` attribute in input fields?",
+        "answer": [
+            "The `placeholder` attribute provides a hint to the user about what to enter in the input field, typically displayed as grayed-out text inside the field."
+        ]
+    },
+    {
+        "id": 83,
+        "topicId": 5,
+        "questionId": 83,
+        "question": "How do you create a table in HTML?",
+        "answer": [
+            "A table is created using `<table>`, `<tr>` (table row), `<td>` (table data), and optionally `<th>` (table header) tags. Example:",
+            "```html",
+            "<table>",
+            "  <thead>",
+            "    <tr>",
+            "      <th>Header 1</th>",
+            "      <th>Header 2</th>",
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
+            "    <tr>",
+            "      <td>Data 1</td>",
+            "      <td>Data 2</td>",
+            "    </tr>",
+            "  </tbody>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 84,
+        "topicId": 5,
+        "questionId": 84,
+        "question": "What is the difference between `<input type='text'>` and `<textarea>`?",
+        "answer": [
+            "`<input type='text'>` is used for single-line text input, while `<textarea>` is used for multi-line text input."
+        ]
+    },
+    {
+        "id": 85,
+        "topicId": 5,
+        "questionId": 85,
+        "question": "How do you make an HTML element draggable?",
+        "answer": [
+            "An HTML element is made draggable by adding the `draggable` attribute. Example:",
+            "```html",
+            "<div draggable='true'>Drag me</div>",
+            "```"
+        ]
+    },
+    {
+        "id": 86,
+        "topicId": 5,
+        "questionId": 86,
+        "question": "What is the `action` attribute in an HTML form used for?",
+        "answer": [
+            "The `action` attribute specifies the URL to which the form data will be sent when the form is submitted."
+        ]
+    },
+    {
+        "id": 87,
+        "topicId": 5,
+        "questionId": 87,
+        "question": "How do you include a favicon in an HTML document?",
+        "answer": [
+            "A favicon is included using the `<link rel='icon' href='favicon.ico' />` tag in the `<head>` section."
+        ]
+    },
+    {
+        "id": 88,
+        "topicId": 5,
+        "questionId": 88,
+        "question": "How do you create an HTML form with multiple file uploads?",
+        "answer": [
+            "A form with multiple file uploads is created using multiple `<input type='file'>` elements. Example:",
+            "```html",
+            "<form>",
+            "  <input type='file' name='file1' /><br/>",
+            "  <input type='file' name='file2' /><br/>",
+            "  <button type='submit'>Upload</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 89,
+        "topicId": 5,
+        "questionId": 89,
+        "question": "What is the `method` attribute's default value in an HTML form?",
+        "answer": [
+            "The default value for the `method` attribute in an HTML form is `GET`."
+        ]
+    },
+    {
+        "id": 90,
+        "topicId": 5,
+        "questionId": 90,
+        "question": "How do you create a hyperlink that opens in a new window or tab?",
+        "answer": [
+            "A hyperlink that opens in a new window or tab is created using the `target='_blank'` attribute. Example:",
+            "```html",
+            "<a href='https://www.example.com' target='_blank'>Open in new tab</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 91,
+        "topicId": 5,
+        "questionId": 91,
+        "question": "How do you specify the language of an HTML document?",
+        "answer": [
+            "The language of an HTML document is specified using the `lang` attribute in the `<html>` tag. Example:",
+            "```html",
+            "<html lang='en'>",
+            "```"
+        ]
+    },
+    {
+        "id": 92,
+        "topicId": 5,
+        "questionId": 92,
+        "question": "What is the purpose of the `<meta>` tag?",
+        "answer": [
+            "The `<meta>` tag provides metadata about the HTML document, such as character encoding, author, description, and keywords."
+        ]
+    },
+    {
+        "id": 93,
+        "topicId": 5,
+        "questionId": 93,
+        "question": "How do you create a form that sends data to a server using the POST method?",
+        "answer": [
+            "A form that sends data using the POST method is created using `<form method='POST'>`. Example:",
+            "```html",
+            "<form method='POST' action='/submit'>",
+            "  <input type='text' name='data' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 94,
+        "topicId": 5,
+        "questionId": 94,
+        "question": "How do you add an email link in HTML?",
+        "answer": [
+            "An email link is added using the `<a>` tag with the `mailto:` scheme. Example:",
+            "```html",
+            "<a href='mailto:example@example.com'>Email Us</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 95,
+        "topicId": 5,
+        "questionId": 95,
+        "question": "What is the purpose of the `autocomplete` attribute in forms?",
+        "answer": [
+            "The `autocomplete` attribute controls whether the browser should automatically complete form fields based on previous entries."
+        ]
+    },
+    {
+        "id": 96,
+        "topicId": 5,
+        "questionId": 96,
+        "question": "How do you create a hyperlink that navigates to a section within the same page?",
+        "answer": [
+            "A hyperlink that navigates to a section within the same page uses an anchor link with the `href` attribute set to the `id` of the target section. Example:",
+            "```html",
+            "<a href='#section1'>Go to Section 1</a>",
+            "<h2 id='section1'>Section 1</h2>",
+            "```"
+        ]
+    },
+    {
+        "id": 97,
+        "topicId": 5,
+        "questionId": 97,
+        "question": "How do you add a favicon to your HTML page?",
+        "answer": [
+            "A favicon is added using the `<link rel='icon' href='favicon.ico'>` tag in the `<head>` section."
+        ]
+    },
+    {
+        "id": 98,
+        "topicId": 5,
+        "questionId": 98,
+        "question": "How do you include a JavaScript file in an HTML document?",
+        "answer": [
+            "A JavaScript file is included using the `<script src='file.js'>` tag. Example:",
+            "```html",
+            "<script src='script.js'></script>",
+            "```"
+        ]
+    },
+    {
+        "id": 99,
+        "topicId": 5,
+        "questionId": 99,
+        "question": "What is the purpose of the `action` attribute in a form?",
+        "answer": [
+            "The `action` attribute specifies the URL to which the form data should be sent when the form is submitted."
+        ]
+    },
+    {
+        "id": 100,
+        "topicId": 5,
+        "questionId": 100,
+        "question": "How do you create a list with different types of list items?",
+        "answer": [
+            "A list with different types of list items is created using `<ul>` for unordered lists and `<ol>` for ordered lists. Example:",
+            "```html",
+            "<ul>",
+            "  <li>Unordered Item 1</li>",
+            "  <li>Unordered Item 2</li>",
+            "</ul>",
+            "<ol>",
+            "  <li>Ordered Item 1</li>",
+            "  <li>Ordered Item 2</li>",
+            "</ol>",
+            "```"
+        ]
+    },
+    {
+        "id": 101,
+        "topicId": 5,
+        "questionId": 101,
+        "question": "How do you create a drop-down menu in HTML?",
+        "answer": [
+            "A drop-down menu is created using the `<select>` tag along with `<option>` tags. Example:",
+            "```html",
+            "<select name='dropdown'>",
+            "  <option value='1'>Option 1</option>",
+            "  <option value='2'>Option 2</option>",
+            "</select>",
+            "```"
+        ]
+    },
+    {
+        "id": 102,
+        "topicId": 5,
+        "questionId": 102,
+        "question": "What is the purpose of the `form` tag in HTML?",
+        "answer": [
+            "The `form` tag is used to create an HTML form for user input, which can be submitted to a server."
+        ]
+    },
+    {
+        "id": 103,
+        "topicId": 5,
+        "questionId": 103,
+        "question": "How do you add an image as a background in HTML?",
+        "answer": [
+            "An image is added as a background using CSS, with the `background-image` property. Example:",
+            "```html",
+            "<style>",
+            "  body {",
+            "    background-image: url('background.jpg');",
+            "  }",
+            "</style>",
+            "```"
+        ]
+    },
+    {
+        "id": 104,
+        "topicId": 5,
+        "questionId": 104,
+        "question": "How do you specify a default value for an input field in HTML?",
+        "answer": [
+            "A default value is specified using the `value` attribute in the `<input>` tag. Example:",
+            "```html",
+            "<input type='text' value='Default Value' />",
+            "```"
+        ]
+    },
+    {
+        "id": 105,
+        "topicId": 5,
+        "questionId": 105,
+        "question": "How do you group form elements together in HTML?",
+        "answer": [
+            "Form elements are grouped using the `<fieldset>` tag along with `<legend>` for labeling. Example:",
+            "```html",
+            "<fieldset>",
+            "  <legend>Personal Information</legend>",
+            "  <label for='name'>Name:</label>",
+            "  <input type='text' id='name' name='name' />",
+            "</fieldset>",
+            "```"
+        ]
+    },
+    {
+        "id": 106,
+        "topicId": 5,
+        "questionId": 106,
+        "question": "What is the `accept` attribute used for in file inputs?",
+        "answer": [
+            "The `accept` attribute specifies the types of files that can be selected. Example:",
+            "```html",
+            "<input type='file' accept='image/*' />",
+            "```"
+        ]
+    },
+    {
+        "id": 107,
+        "topicId": 5,
+        "questionId": 107,
+        "question": "How do you create a hidden input field in HTML?",
+        "answer": [
+            "A hidden input field is created using `<input type='hidden'>`. Example:",
+            "```html",
+            "<input type='hidden' name='hiddenField' value='Hidden Value' />",
+            "```"
+        ]
+    },
+    {
+        "id": 108,
+        "topicId": 5,
+        "questionId": 108,
+        "question": "How do you use the `target` attribute with links in HTML?",
+        "answer": [
+            "The `target` attribute specifies where to open the linked document. Example:",
+            "```html",
+            "<a href='https://www.example.com' target='_blank'>Open in new tab</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 109,
+        "topicId": 5,
+        "questionId": 109,
+        "question": "What is the purpose of the `rel` attribute in a link?",
+        "answer": [
+            "The `rel` attribute specifies the relationship between the current document and the linked document. Example:",
+            "```html",
+            "<a href='https://www.example.com' rel='noopener noreferrer'>Visit Example</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 110,
+        "topicId": 5,
+        "questionId": 110,
+        "question": "How do you create a progress bar in HTML?",
+        "answer": [
+            "A progress bar is created using the `<progress>` tag. Example:",
+            "```html",
+            "<progress value='50' max='100'>50%</progress>",
+            "```"
+        ]
+    },
+    {
+        "id": 111,
+        "topicId": 5,
+        "questionId": 111,
+        "question": "What is the purpose of the `aria-label` attribute?",
+        "answer": [
+            "The `aria-label` attribute provides an accessible name for an element, improving accessibility for screen readers."
+        ]
+    },
+    {
+        "id": 112,
+        "topicId": 5,
+        "questionId": 112,
+        "question": "How do you create a table with headers in HTML?",
+        "answer": [
+            "A table with headers is created using `<table>`, `<thead>`, `<tr>`, and `<th>` tags. Example:",
+            "```html",
+            "<table>",
+            "  <thead>",
+            "    <tr>",
+            "      <th>Header 1</th>",
+            "      <th>Header 2</th>",
+            "    </tr>",
+            "  </thead>",
+            "  <tbody>",
+            "    <tr>",
+            "      <td>Data 1</td>",
+            "      <td>Data 2</td>",
+            "    </tr>",
+            "  </tbody>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 113,
+        "topicId": 5,
+        "questionId": 113,
+        "question": "How do you create a radio button group in HTML?",
+        "answer": [
+            "A radio button group is created using multiple `<input type='radio'>` elements with the same `name` attribute. Example:",
+            "```html",
+            "<label><input type='radio' name='group' value='1' /> Option 1</label>",
+            "<label><input type='radio' name='group' value='2' /> Option 2</label>",
+            "```"
+        ]
+    },
+    {
+        "id": 114,
+        "topicId": 5,
+        "questionId": 114,
+        "question": "How do you create a list of hyperlinks in HTML?",
+        "answer": [
+            "A list of hyperlinks is created using `<ul>` or `<ol>` along with `<li>` and `<a>` tags. Example:",
+            "```html",
+            "<ul>",
+            "  <li><a href='https://www.example1.com'>Example 1</a></li>",
+            "  <li><a href='https://www.example2.com'>Example 2</a></li>",
+            "</ul>",
+            "```"
+        ]
+    },
+    {
+        "id": 115,
+        "topicId": 5,
+        "questionId": 115,
+        "question": "How do you include a CSS stylesheet in an HTML document?",
+        "answer": [
+            "A CSS stylesheet is included using the `<link>` tag. Example:",
+            "```html",
+            "<link rel='stylesheet' href='styles.css'>",
+            "```"
+        ]
+    },
+    {
+        "id": 116,
+        "topicId": 5,
+        "questionId": 116,
+        "question": "How do you create a form with a submit button in HTML?",
+        "answer": [
+            "A form with a submit button is created using the `<form>` tag with `<button type='submit'>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='text' name='data' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 117,
+        "topicId": 5,
+        "questionId": 117,
+        "question": "What is the difference between `<input type='radio'>` and `<input type='checkbox'>`?",
+        "answer": [
+            "`<input type='radio'>` allows only one option to be selected in a group, while `<input type='checkbox'>` allows multiple selections."
+        ]
+    },
+    {
+        "id": 118,
+        "topicId": 5,
+        "questionId": 118,
+        "question": "How do you add a custom style to an HTML element?",
+        "answer": [
+            "Custom styles are added using the `style` attribute. Example:",
+            "```html",
+            "<div style='color: red; font-size: 20px;'>Styled text</div>",
+            "```"
+        ]
+    },
+    {
+        "id": 119,
+        "topicId": 5,
+        "questionId": 119,
+        "question": "How do you include a video in an HTML document?",
+        "answer": [
+            "A video is included using the `<video>` tag. Example:",
+            "```html",
+            "<video width='320' height='240' controls>",
+            "  <source src='movie.mp4' type='video/mp4'>",
+            "  Your browser does not support the video tag.",
+            "</video>",
+            "```"
+        ]
+    },
+    {
+        "id": 120,
+        "topicId": 5,
+        "questionId": 120,
+        "question": "How do you create a form with a text area in HTML?",
+        "answer": [
+            "A form with a text area is created using the `<textarea>` tag. Example:",
+            "```html",
+            "<form>",
+            "  <textarea name='message'></textarea>",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 121,
+        "topicId": 5,
+        "questionId": 121,
+        "question": "What is the purpose of the `<header>` tag?",
+        "answer": [
+            "The `<header>` tag represents introductory content or a set of navigational links, typically containing headings, logo, and other introductory elements."
+        ]
+    },
+    {
+        "id": 122,
+        "topicId": 5,
+        "questionId": 122,
+        "question": "How do you create a table with a caption in HTML?",
+        "answer": [
+            "A table with a caption is created using the `<caption>` tag within the `<table>`. Example:",
+            "```html",
+            "<table>",
+            "  <caption>Table Caption</caption>",
+            "  <tr>",
+            "    <th>Header 1</th>",
+            "    <th>Header 2</th>",
+            "  </tr>",
+            "  <tr>",
+            "    <td>Data 1</td>",
+            "    <td>Data 2</td>",
+            "  </tr>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 123,
+        "topicId": 5,
+        "questionId": 123,
+        "question": "How do you specify a link to a stylesheet in HTML?",
+        "answer": [
+            "A link to a stylesheet is specified using the `<link>` tag with the `rel` and `href` attributes. Example:",
+            "```html",
+            "<link rel='stylesheet' href='styles.css'>",
+            "```"
+        ]
+    },
+    {
+        "id": 124,
+        "topicId": 5,
+        "questionId": 124,
+        "question": "How do you add comments in HTML?",
+        "answer": [
+            "Comments in HTML are added using `<!-- comment -->`. Example:",
+            "```html",
+            "<!-- This is a comment -->",
+            "```"
+        ]
+    },
+    {
+        "id": 125,
+        "topicId": 5,
+        "questionId": 125,
+        "question": "How do you create a drop-down menu with options grouped in HTML?",
+        "answer": [
+            "Grouped options in a drop-down menu are created using the `<optgroup>` tag within a `<select>` tag. Example:",
+            "```html",
+            "<select>",
+            "  <optgroup label='Group 1'>",
+            "    <option value='1'>Option 1</option>",
+            "    <option value='2'>Option 2</option>",
+            "  </optgroup>",
+            "  <optgroup label='Group 2'>",
+            "    <option value='3'>Option 3</option>",
+            "    <option value='4'>Option 4</option>",
+            "  </optgroup>",
+            "</select>",
+            "```"
+        ]
+    },
+    {
+        "id": 126,
+        "topicId": 5,
+        "questionId": 126,
+        "question": "What is the purpose of the `<main>` tag?",
+        "answer": [
+            "The `<main>` tag represents the dominant content of the `<body>`, excluding headers, footers, and sidebars."
+        ]
+    },
+    {
+        "id": 127,
+        "topicId": 5,
+        "questionId": 127,
+        "question": "How do you create a multi-line text input in HTML?",
+        "answer": [
+            "A multi-line text input is created using the `<textarea>` tag. Example:",
+            "```html",
+            "<textarea rows='4' cols='50'></textarea>",
+            "```"
+        ]
+    },
+    {
+        "id": 128,
+        "topicId": 5,
+        "questionId": 128,
+        "question": "How do you specify the encoding type for a form in HTML?",
+        "answer": [
+            "The encoding type is specified using the `enctype` attribute in the `<form>` tag. Example:",
+            "```html",
+            "<form enctype='multipart/form-data'>",
+            "  <input type='file' name='file' />",
+            "  <button type='submit'>Upload</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 129,
+        "topicId": 5,
+        "questionId": 129,
+        "question": "How do you include a favicon in an HTML document?",
+        "answer": [
+            "A favicon is included using the `<link rel='icon' href='favicon.ico'>` tag in the `<head>` section."
+        ]
+    },
+    {
+        "id": 130,
+        "topicId": 5,
+        "questionId": 130,
+        "question": "How do you create a meta tag for character encoding?",
+        "answer": [
+            "A meta tag for character encoding is created using `<meta charset='UTF-8'>`. Example:",
+            "```html",
+            "<meta charset='UTF-8'>",
+            "```"
+        ]
+    },
+    {
+        "id": 131,
+        "topicId": 5,
+        "questionId": 131,
+        "question": "How do you create a link to an external script in HTML?",
+        "answer": [
+            "A link to an external script is created using the `<script>` tag with the `src` attribute. Example:",
+            "```html",
+            "<script src='script.js'></script>",
+            "```"
+        ]
+    },
+    {
+        "id": 132,
+        "topicId": 5,
+        "questionId": 132,
+        "question": "How do you add a `target` attribute to an HTML link?",
+        "answer": [
+            "The `target` attribute is added to an `<a>` tag to specify where to open the link. Example:",
+            "```html",
+            "<a href='https://www.example.com' target='_blank'>Open in new tab</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 133,
+        "topicId": 5,
+        "questionId": 133,
+        "question": "What is the purpose of the `<footer>` tag in HTML?",
+        "answer": [
+            "The `<footer>` tag represents the footer for its nearest sectioning content or sectioning root element."
+        ]
+    },
+    {
+        "id": 134,
+        "topicId": 5,
+        "questionId": 134,
+        "question": "How do you create a form with a date input field?",
+        "answer": [
+            "A form with a date input field is created using `<input type='date'>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='date' name='date' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 135,
+        "topicId": 5,
+        "questionId": 135,
+        "question": "How do you add an external stylesheet in HTML?",
+        "answer": [
+            "An external stylesheet is added using the `<link>` tag with `rel='stylesheet'` and `href` attributes. Example:",
+            "```html",
+            "<link rel='stylesheet' href='styles.css'>",
+            "```"
+        ]
+    },
+    {
+        "id": 136,
+        "topicId": 5,
+        "questionId": 136,
+        "question": "How do you use the `required` attribute in a form input?",
+        "answer": [
+            "The `required` attribute specifies that an input field must be filled out before submitting the form. Example:",
+            "```html",
+            "<input type='text' name='name' required />",
+            "```"
+        ]
+    },
+    {
+        "id": 137,
+        "topicId": 5,
+        "questionId": 137,
+        "question": "How do you create a form with a number input field?",
+        "answer": [
+            "A form with a number input field is created using `<input type='number'>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='number' name='quantity' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 138,
+        "topicId": 5,
+        "questionId": 138,
+        "question": "What is the difference between `<ul>` and `<ol>` in HTML?",
+        "answer": [
+            "`<ul>` creates an unordered list, where items are marked with bullets, while `<ol>` creates an ordered list, where items are numbered."
+        ]
+    },
+    {
+        "id": 139,
+        "topicId": 5,
+        "questionId": 139,
+        "question": "How do you include a JavaScript file in an HTML document?",
+        "answer": [
+            "A JavaScript file is included using the `<script>` tag with the `src` attribute. Example:",
+            "```html",
+            "<script src='script.js'></script>",
+            "```"
+        ]
+    },
+    {
+        "id": 140,
+        "topicId": 5,
+        "questionId": 140,
+        "question": "What is the purpose of the `alt` attribute in the `<img>` tag?",
+        "answer": [
+            "The `alt` attribute provides alternative text for an image if the image cannot be displayed."
+        ]
+    },
+    {
+        "id": 141,
+        "topicId": 5,
+        "questionId": 141,
+        "question": "How do you create a hyperlink that opens in a new tab?",
+        "answer": [
+            "A hyperlink that opens in a new tab is created using the `target='_blank'` attribute. Example:",
+            "```html",
+            "<a href='https://www.example.com' target='_blank'>Open in new tab</a>",
+            "```"
+        ]
+    },
+    {
+        "id": 142,
+        "topicId": 5,
+        "questionId": 142,
+        "question": "How do you create a list item in an ordered list?",
+        "answer": [
+            "A list item in an ordered list is created using `<li>` tags within an `<ol>`. Example:",
+            "```html",
+            "<ol>",
+            "  <li>Item 1</li>",
+            "  <li>Item 2</li>",
+            "</ol>",
+            "```"
+        ]
+    },
+    {
+        "id": 143,
+        "topicId": 5,
+        "questionId": 143,
+        "question": "How do you specify the language of an HTML document?",
+        "answer": [
+            "The language of an HTML document is specified using the `lang` attribute in the `<html>` tag. Example:",
+            "```html",
+            "<html lang='en'>",
+            "  <!-- Content here -->",
+            "</html>",
+            "```"
+        ]
+    },
+    {
+        "id": 144,
+        "topicId": 5,
+        "questionId": 144,
+        "question": "What is the purpose of the `<aside>` tag in HTML?",
+        "answer": [
+            "The `<aside>` tag represents a portion of content indirectly related to the main content, often used for sidebars or additional information."
+        ]
+    },
+    {
+        "id": 145,
+        "topicId": 5,
+        "questionId": 145,
+        "question": "How do you create a form with a file input field?",
+        "answer": [
+            "A form with a file input field is created using `<input type='file'>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='file' name='fileUpload' />",
+            "  <button type='submit'>Upload</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 146,
+        "topicId": 5,
+        "questionId": 146,
+        "question": "What is the purpose of the `<section>` tag in HTML?",
+        "answer": [
+            "The `<section>` tag represents a standalone section of content that could be distributed independently from the rest of the document."
+        ]
+    },
+    {
+        "id": 147,
+        "topicId": 5,
+        "questionId": 147,
+        "question": "How do you create a text input field with a placeholder?",
+        "answer": [
+            "A text input field with a placeholder is created using the `placeholder` attribute in the `<input>` tag. Example:",
+            "```html",
+            "<input type='text' placeholder='Enter text here' />",
+            "```"
+        ]
+    },
+    {
+        "id": 148,
+        "topicId": 5,
+        "questionId": 148,
+        "question": "How do you create a navigation menu using HTML?",
+        "answer": [
+            "A navigation menu is created using an unordered list with `<nav>`. Example:",
+            "```html",
+            "<nav>",
+            "  <ul>",
+            "    <li><a href='#home'>Home</a></li>",
+            "    <li><a href='#about'>About</a></li>",
+            "    <li><a href='#contact'>Contact</a></li>",
+            "  </ul>",
+            "</nav>",
+            "```"
+        ]
+    },
+    {
+        "id": 149,
+        "topicId": 5,
+        "questionId": 149,
+        "question": "How do you create a responsive image in HTML?",
+        "answer": [
+            "A responsive image is created using the `max-width` CSS property. Example:",
+            "```html",
+            "<style>",
+            "  img {",
+            "    max-width: 100%;",
+            "    height: auto;",
+            "  }",
+            "</style>",
+            "<img src='image.jpg' alt='Responsive Image' />",
+            "```"
+        ]
+    },
+    {
+        "id": 150,
+        "topicId": 5,
+        "questionId": 150,
+        "question": "How do you create a table with alternating row colors?",
+        "answer": [
+            "Alternating row colors can be achieved using CSS. Example:",
+            "```html",
+            "<style>",
+            "  tr:nth-child(even) {",
+            "    background-color: #f2f2f2;",
+            "  }",
+            "</style>",
+            "<table>",
+            "  <tr><td>Row 1</td></tr>",
+            "  <tr><td>Row 2</td></tr>",
+            "</table>",
+            "```"
+        ]
+    },
+    {
+        "id": 151,
+        "topicId": 5,
+        "questionId": 151,
+        "question": "How do you create a responsive web design using HTML?",
+        "answer": [
+            "Responsive web design is achieved by using the viewport meta tag and CSS media queries. Example:",
+            "```html",
+            "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+            "<style>",
+            "  @media (max-width: 600px) {",
+            "    body {",
+            "      font-size: 14px;",
+            "    }",
+            "  }",
+            "</style>",
+            "```"
+        ]
+    },
+    {
+        "id": 152,
+        "topicId": 5,
+        "questionId": 152,
+        "question": "How do you include a Google font in an HTML document?",
+        "answer": [
+            "A Google font is included using the `<link>` tag with the font's URL. Example:",
+            "```html",
+            "<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto'>",
+            "```"
+        ]
+    },
+    {
+        "id": 153,
+        "topicId": 5,
+        "questionId": 153,
+        "question": "How do you create a hidden element in HTML?",
+        "answer": [
+            "A hidden element is created using the `hidden` attribute. Example:",
+            "```html",
+            "<div hidden>This is hidden</div>",
+            "```"
+        ]
+    },
+    {
+        "id": 154,
+        "topicId": 5,
+        "questionId": 154,
+        "question": "How do you specify a default value for a `select` input in HTML?",
+        "answer": [
+            "A default value is specified using the `selected` attribute in an `<option>` tag. Example:",
+            "```html",
+            "<select>",
+            "  <option value='1'>Option 1</option>",
+            "  <option value='2' selected>Option 2</option>",
+            "</select>",
+            "```"
+        ]
+    },
+    {
+        "id": 155,
+        "topicId": 5,
+        "questionId": 155,
+        "question": "How do you create an inline style in HTML?",
+        "answer": [
+            "An inline style is added using the `style` attribute within an HTML tag. Example:",
+            "```html",
+            "<p style='color: blue;'>This is a blue paragraph.</p>",
+            "```"
+        ]
+    },
+    {
+        "id": 156,
+        "topicId": 5,
+        "questionId": 156,
+        "question": "How do you create a clickable button in HTML?",
+        "answer": [
+            "A clickable button is created using the `<button>` tag. Example:",
+            "```html",
+            "<button onclick='alert(\"Clicked!\")'>Click Me</button>",
+            "```"
+        ]
+    },
+    {
+        "id": 157,
+        "topicId": 5,
+        "questionId": 157,
+        "question": "How do you create a form with a submit button that sends data to a server?",
+        "answer": [
+            "A form with a submit button is created using the `<form>` tag with the `action` and `method` attributes. Example:",
+            "```html",
+            "<form action='/submit' method='post'>",
+            "  <input type='text' name='name' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 158,
+        "topicId": 5,
+        "questionId": 158,
+        "question": "How do you create a drop-down menu with disabled options in HTML?",
+        "answer": [
+            "Disabled options in a drop-down menu are created using the `disabled` attribute within an `<option>` tag. Example:",
+            "```html",
+            "<select>",
+            "  <option value='1'>Option 1</option>",
+            "  <option value='2' disabled>Option 2</option>",
+            "</select>",
+            "```"
+        ]
+    },
+    {
+        "id": 159,
+        "topicId": 5,
+        "questionId": 159,
+        "question": "How do you create a form with a password input field?",
+        "answer": [
+            "A form with a password input field is created using `<input type='password'>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='password' name='password' />",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    },
+    {
+        "id": 160,
+        "topicId": 5,
+        "questionId": 160,
+        "question": "How do you create a form with radio buttons?",
+        "answer": [
+            "A form with radio buttons is created using `<input type='radio'>` tags within the `<form>`. Example:",
+            "```html",
+            "<form>",
+            "  <input type='radio' name='choice' value='A'> Choice A<br>",
+            "  <input type='radio' name='choice' value='B'> Choice B<br>",
+            "  <button type='submit'>Submit</button>",
+            "</form>",
+            "```"
+        ]
+    }
+]

@@ -1,0 +1,1019 @@
+[
+    {
+        "id": 1,
+        "topicId": 3,
+        "questionId": 1,
+        "question": "What is Redux?",
+        "answer": [
+            "Redux is a predictable state container for JavaScript apps, often used with React for managing application state."
+        ]
+    },
+    {
+        "id": 2,
+        "topicId": 3,
+        "questionId": 2,
+        "question": "What are the core principles of Redux?",
+        "answer": [
+            "The core principles of Redux are:",
+            "1. Single source of truth: The state of your whole application is stored in an object tree within a single store.",
+            "2. State is read-only: The only way to change the state is to emit an action, an object describing what happened.",
+            "3. Changes are made with pure functions: To specify how the state tree is transformed by actions, you write pure reducers."
+        ]
+    },
+    {
+        "id": 3,
+        "topicId": 3,
+        "questionId": 3,
+        "question": "What is an action in Redux?",
+        "answer": [
+            "An action is a plain JavaScript object that describes a change or event in the application. Actions are the only source of information for the store."
+        ]
+    },
+    {
+        "id": 4,
+        "topicId": 3,
+        "questionId": 4,
+        "question": "What is a reducer in Redux?",
+        "answer": [
+            "A reducer is a pure function that takes the previous state and an action as arguments, and returns a new state. It determines how the state should change in response to an action."
+        ]
+    },
+    {
+        "id": 5,
+        "topicId": 3,
+        "questionId": 5,
+        "question": "What is the Redux store?",
+        "answer": [
+            "The Redux store is an object that holds the application's state. It provides methods to access the state, dispatch actions, and register listeners."
+        ]
+    },
+    {
+        "id": 6,
+        "topicId": 3,
+        "questionId": 6,
+        "question": "How do you create a Redux store?",
+        "answer": [
+            "You create a Redux store using the `createStore` function from the Redux library. For example:",
+            "```js",
+            "import { createStore } from 'redux';",
+            "const store = createStore(reducer);",
+            "```"
+        ]
+    },
+    {
+        "id": 7,
+        "topicId": 3,
+        "questionId": 7,
+        "question": "What is the purpose of the `combineReducers` function?",
+        "answer": [
+            "The `combineReducers` function is used to combine multiple reducers into a single reducer function. It is useful for splitting the state management logic across different parts of the application."
+        ]
+    },
+    {
+        "id": 8,
+        "topicId": 3,
+        "questionId": 8,
+        "question": "What is the `Provider` component in React Redux?",
+        "answer": [
+            "The `Provider` component makes the Redux store available to any nested components that need to access the Redux store. It is provided by the `react-redux` library."
+        ]
+    },
+    {
+        "id": 9,
+        "topicId": 3,
+        "questionId": 9,
+        "question": "How do you connect a React component to the Redux store?",
+        "answer": [
+            "You connect a React component to the Redux store using the `connect` function from `react-redux`. The `connect` function connects a React component to the Redux store, providing it with the state and dispatch functions as props."
+        ]
+    },
+    {
+        "id": 10,
+        "topicId": 3,
+        "questionId": 10,
+        "question": "What is the `mapStateToProps` function?",
+        "answer": [
+            "The `mapStateToProps` function is used to specify which part of the Redux state the component needs to access. It maps the state from the Redux store to the props of the React component."
+        ]
+    },
+    {
+        "id": 11,
+        "topicId": 3,
+        "questionId": 11,
+        "question": "What is the `mapDispatchToProps` function?",
+        "answer": [
+            "The `mapDispatchToProps` function is used to provide the component with dispatch functions as props. It allows the component to dispatch actions to the Redux store."
+        ]
+    },
+    {
+        "id": 12,
+        "topicId": 3,
+        "questionId": 12,
+        "question": "What is middleware in Redux?",
+        "answer": [
+            "Middleware in Redux is a way to extend Redux with custom functionality. It provides a third-party extension point between dispatching an action and the moment it reaches the reducer."
+        ]
+    },
+    {
+        "id": 13,
+        "topicId": 3,
+        "questionId": 13,
+        "question": "How do you apply middleware in Redux?",
+        "answer": [
+            "You apply middleware in Redux using the `applyMiddleware` function. For example:",
+            "```js",
+            "import { createStore, applyMiddleware } from 'redux';",
+            "import thunk from 'redux-thunk';",
+            "const store = createStore(reducer, applyMiddleware(thunk));",
+            "```"
+        ]
+    },
+    {
+        "id": 14,
+        "topicId": 3,
+        "questionId": 14,
+        "question": "What is `redux-thunk`?",
+        "answer": [
+            "`redux-thunk` is a middleware that allows you to write action creators that return a function instead of an action. It can be used for handling asynchronous logic in Redux."
+        ]
+    },
+    {
+        "id": 15,
+        "topicId": 3,
+        "questionId": 15,
+        "question": "What is an action creator in Redux?",
+        "answer": [
+            "An action creator is a function that creates and returns an action. It encapsulates the process of creating an action, making it easier to manage and test."
+        ]
+    },
+    {
+        "id": 16,
+        "topicId": 3,
+        "questionId": 16,
+        "question": "What is the `useSelector` hook in React Redux?",
+        "answer": [
+            "The `useSelector` hook is used to extract data from the Redux store state. It allows function components to access the Redux store's state without needing to connect the component."
+        ]
+    },
+    {
+        "id": 17,
+        "topicId": 3,
+        "questionId": 17,
+        "question": "What is the `useDispatch` hook in React Redux?",
+        "answer": [
+            "The `useDispatch` hook is used to get the `dispatch` function from the Redux store. It allows function components to dispatch actions without needing to connect the component."
+        ]
+    },
+    {
+        "id": 18,
+        "topicId": 3,
+        "questionId": 18,
+        "question": "What is a selector in Redux?",
+        "answer": [
+            "A selector is a function that extracts a specific part of the state from the Redux store. It is used to encapsulate and reuse state selection logic."
+        ]
+    },
+    {
+        "id": 19,
+        "topicId": 3,
+        "questionId": 19,
+        "question": "What is the `combineReducers` function?",
+        "answer": [
+            "The `combineReducers` function is used to combine multiple reducer functions into a single reducer. It helps manage the complexity of the state by splitting it into separate parts handled by different reducers."
+        ]
+    },
+    {
+        "id": 20,
+        "topicId": 3,
+        "questionId": 20,
+        "question": "How do you handle asynchronous actions in Redux?",
+        "answer": [
+            "Asynchronous actions in Redux are handled using middleware such as `redux-thunk` or `redux-saga`. These middleware allow you to write logic that can dispatch actions based on asynchronous events."
+        ]
+    },
+    {
+        "id": 21,
+        "topicId": 3,
+        "questionId": 21,
+        "question": "What is the `redux-saga` middleware?",
+        "answer": [
+            "`redux-saga` is a middleware that allows you to manage side effects in Redux using generator functions. It makes it easier to handle complex asynchronous logic in a predictable manner."
+        ]
+    },
+    {
+        "id": 22,
+        "topicId": 3,
+        "questionId": 22,
+        "question": "What is a saga in `redux-saga`?",
+        "answer": [
+            "A saga is a generator function that manages side effects in a Redux application. It listens for dispatched actions and can perform asynchronous tasks, such as API calls, and then dispatch new actions based on the results."
+        ]
+    },
+    {
+        "id": 23,
+        "topicId": 3,
+        "questionId": 23,
+        "question": "How do you create a saga in `redux-saga`?",
+        "answer": [
+            "To create a saga in `redux-saga`, you define a generator function that yields effect objects. For example:",
+            "```js",
+            "import { call, put, takeEvery } from 'redux-saga/effects';",
+            "function* fetchData(action) {",
+            "  try {",
+            "    const data = yield call(Api.fetchData, action.payload);",
+            "    yield put({ type: 'FETCH_SUCCEEDED', data });",
+            "  } catch (e) {",
+            "    yield put({ type: 'FETCH_FAILED', message: e.message });",
+            "  }",
+            "}",
+            "function* mySaga() {",
+            "  yield takeEvery('FETCH_REQUESTED', fetchData);",
+            "}",
+            "```"
+        ]
+    },
+    {
+        "id": 23,
+        "topicId": 3,
+        "questionId": 23,
+        "question": "How do you create a saga in `redux-saga`?",
+        "answer": [
+            "To create a saga in `redux-saga`, you define a generator function that yields effect objects. For example:",
+            "```js",
+            "import { call, put, takeEvery } from 'redux-saga/effects';",
+            "function* fetchData(action) {",
+            "  try {",
+            "    const data = yield call(Api.fetchData, action.payload);",
+            "    yield put({ type: 'FETCH_SUCCEEDED', data });",
+            "  } catch (e) {",
+            "    yield put({ type: 'FETCH_FAILED', message: e.message });",
+            "  }",
+            "}",
+            "function* mySaga() {",
+            "  yield takeEvery('FETCH_REQUESTED', fetchData);",
+            "}",
+            "```"
+        ]
+    },
+    {
+        "id": 24,
+        "topicId": 3,
+        "questionId": 24,
+        "question": "How do you run a saga in `redux-saga`?",
+        "answer": [
+            "To run a saga in `redux-saga`, you use the `run` method of the saga middleware. For example:",
+            "```js",
+            "import createSagaMiddleware from 'redux-saga';",
+            "import { createStore, applyMiddleware } from 'redux';",
+            "import rootReducer from './reducers';",
+            "import rootSaga from './sagas';",
+            "const sagaMiddleware = createSagaMiddleware();",
+            "const store = createStore(rootReducer, applyMiddleware(sagaMiddleware));",
+            "sagaMiddleware.run(rootSaga);",
+            "```"
+        ]
+    },
+    {
+        "id": 25,
+        "topicId": 3,
+        "questionId": 25,
+        "question": "What is the difference between `redux-thunk` and `redux-saga`?",
+        "answer": [
+            "`redux-thunk` is simpler and allows action creators to return functions, whereas `redux-saga` uses generator functions to manage complex side effects in a more predictable manner."
+        ]
+    },
+    {
+        "id": 26,
+        "topicId": 3,
+        "questionId": 26,
+        "question": "What is the `redux-devtools-extension`?",
+        "answer": [
+            "The `redux-devtools-extension` is a browser extension that provides a powerful set of tools for debugging Redux applications. It allows you to inspect every action and state change, as well as time travel and replay actions."
+        ]
+    },
+    {
+        "id": 27,
+        "topicId": 3,
+        "questionId": 27,
+        "question": "How do you configure the `redux-devtools-extension`?",
+        "answer": [
+            "To configure the `redux-devtools-extension`, you use the `composeWithDevTools` function from the `redux-devtools-extension` package. For example:",
+            "```js",
+            "import { createStore } from 'redux';",
+            "import { composeWithDevTools } from 'redux-devtools-extension';",
+            "const store = createStore(reducer, composeWithDevTools());",
+            "```"
+        ]
+    },
+    {
+        "id": 28,
+        "topicId": 3,
+        "questionId": 28,
+        "question": "What are the advantages of using Redux?",
+        "answer": [
+            "The advantages of using Redux include:",
+            "1. Predictable state updates: Redux ensures that state changes are predictable and consistent.",
+            "2. Centralized state: Redux centralizes the application's state, making it easier to manage and debug.",
+            "3. Enhanced maintainability: Redux encourages writing modular and testable code.",
+            "4. Developer tools: Redux has excellent developer tools for debugging and inspecting state changes."
+        ]
+    },
+    {
+        "id": 29,
+        "topicId": 3,
+        "questionId": 29,
+        "question": "What are the disadvantages of using Redux?",
+        "answer": [
+            "The disadvantages of using Redux include:",
+            "1. Boilerplate code: Redux can introduce a lot of boilerplate code, making the codebase more verbose.",
+            "2. Learning curve: Redux has a steep learning curve, especially for beginners.",
+            "3. Overhead: For small applications, Redux can add unnecessary complexity and overhead."
+        ]
+    },
+    {
+        "id": 30,
+        "topicId": 3,
+        "questionId": 30,
+        "question": "What is the `createSlice` function in Redux Toolkit?",
+        "answer": [
+            "The `createSlice` function in Redux Toolkit is a utility that simplifies the creation of Redux slices. It automatically generates action creators and action types based on the provided reducers."
+        ]
+    },
+    {
+        "id": 31,
+        "topicId": 3,
+        "questionId": 31,
+        "question": "How do you create a slice using Redux Toolkit?",
+        "answer": [
+            "To create a slice using Redux Toolkit, you use the `createSlice` function. For example:",
+            "```js",
+            "import { createSlice } from '@reduxjs/toolkit';",
+            "const counterSlice = createSlice({",
+            "  name: 'counter',",
+            "  initialState: { value: 0 },",
+            "  reducers: {",
+            "    increment: state => { state.value += 1; },",
+            "    decrement: state => { state.value -= 1; }",
+            "  }",
+            "});",
+            "export const { increment, decrement } = counterSlice.actions;",
+            "export default counterSlice.reducer;",
+            "```"
+        ]
+    },
+    {
+        "id": 32,
+        "topicId": 3,
+        "questionId": 32,
+        "question": "What is Redux Toolkit?",
+        "answer": [
+            "Redux Toolkit is an official, opinionated, batteries-included toolset for efficient Redux development. It includes utilities to simplify common Redux use cases, such as store setup, creating reducers and actions, and handling side effects."
+        ]
+    },
+    {
+        "id": 33,
+        "topicId": 3,
+        "questionId": 33,
+        "question": "How do you configure a store using Redux Toolkit?",
+        "answer": [
+            "To configure a store using Redux Toolkit, you use the `configureStore` function. For example:",
+            "```js",
+            "import { configureStore } from '@reduxjs/toolkit';",
+            "import counterReducer from './counterSlice';",
+            "const store = configureStore({",
+            "  reducer: {",
+            "    counter: counterReducer",
+            "  }",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 34,
+        "topicId": 3,
+        "questionId": 34,
+        "question": "What is the `createAsyncThunk` function in Redux Toolkit?",
+        "answer": [
+            "The `createAsyncThunk` function in Redux Toolkit is used to handle asynchronous logic. It generates actions and action creators for pending, fulfilled, and rejected states of an async request."
+        ]
+    },
+    {
+        "id": 35,
+        "topicId": 3,
+        "questionId": 35,
+        "question": "How do you handle side effects with Redux Toolkit?",
+        "answer": [
+            "To handle side effects with Redux Toolkit, you can use the `createAsyncThunk` function for async logic. For example:",
+            "```js",
+            "import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';",
+            "export const fetchUserById = createAsyncThunk(",
+            "  'users/fetchById',",
+            "  async (userId, thunkAPI) => {",
+            "    const response = await userAPI.fetchById(userId);",
+            "    return response.data;",
+            "  }",
+            ");",
+            "```"
+        ]
+    },
+    {
+        "id": 36,
+        "topicId": 3,
+        "questionId": 36,
+        "question": "What are Redux selectors?",
+        "answer": [
+            "Redux selectors are functions that extract specific pieces of data from the Redux store state. They are used to encapsulate the logic of accessing the state and can be reused across different components."
+        ]
+    },
+    {
+        "id": 37,
+        "topicId": 3,
+        "questionId": 37,
+        "question": "How do you create a memoized selector in Redux?",
+        "answer": [
+            "To create a memoized selector in Redux, you can use the `createSelector` function from the `reselect` library. For example:",
+            "```js",
+            "import { createSelector } from 'reselect';",
+            "const selectItems = state => state.items;",
+            "const selectTotalPrice = createSelector(",
+            "  [selectItems],",
+            "  items => items.reduce((total, item) => total + item.price, 0)",
+            ");",
+            "```"
+        ]
+    },
+    {
+        "id": 38,
+        "topicId": 3,
+        "questionId": 38,
+        "question": "What is the `createEntityAdapter` function in Redux Toolkit?",
+        "answer": [
+            "The `createEntityAdapter` function in Redux Toolkit provides a set of prebuilt reducers and selectors for managing normalized state. It simplifies the process of managing collections of items in the Redux store."
+        ]
+    },
+    {
+        "id": 39,
+        "topicId": 3,
+        "questionId": 39,
+        "question": "How do you use the `createEntityAdapter` function?",
+        "answer": [
+            "To use the `createEntityAdapter` function, you create an adapter and use its methods to manage the state. For example:",
+            "```js",
+            "import { createEntityAdapter, createSlice } from '@reduxjs/toolkit';",
+            "const usersAdapter = createEntityAdapter();",
+            "const usersSlice = createSlice({",
+            "  name: 'users',",
+            "  initialState: usersAdapter.getInitialState(),",
+            "  reducers: {",
+            "    addUser: usersAdapter.addOne,",
+            "    updateUser: usersAdapter.updateOne,",
+            "    removeUser: usersAdapter.removeOne",
+            "  }",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 40,
+        "topicId": 3,
+        "questionId": 40,
+        "question": "What is the `useSelector` hook in React Redux?",
+        "answer": [
+            "The `useSelector` hook is used to extract data from the Redux store state. It allows function components to access the Redux store's state without needing to connect the component."
+        ]
+    },
+    {
+        "id": 41,
+        "topicId": 3,
+        "questionId": 41,
+        "question": "What is the `useDispatch` hook in React Redux?",
+        "answer": [
+            "The `useDispatch` hook is used to get the `dispatch` function from the Redux store. It allows function components to dispatch actions without needing to connect the component."
+        ]
+    },
+    {
+        "id": 42,
+        "topicId": 3,
+        "questionId": 42,
+        "question": "What is the difference between `useSelector` and `connect`?",
+        "answer": [
+            "`useSelector` is a hook that allows function components to access the Redux store state, while `connect` is a higher-order component that connects a React component to the Redux store."
+        ]
+    },
+    {
+        "id": 43,
+        "topicId": 3,
+        "questionId": 43,
+        "question": "How do you test Redux actions and reducers?",
+        "answer": [
+            "To test Redux actions and reducers, you can use a testing framework like Jest. For actions, you test the action creators, and for reducers, you test the reducer functions by passing in different actions and states."
+        ]
+    },
+    {
+        "id": 44,
+        "topicId": 3,
+        "questionId": 44,
+        "question": "How do you test connected React components?",
+        "answer": [
+            "To test connected React components, you can use a testing library like React Testing Library or Enzyme. You can wrap the component with a `Provider` to provide the Redux store context."
+        ]
+    },
+    {
+        "id": 45,
+        "topicId": 3,
+        "questionId": 45,
+        "question": "What are Redux DevTools?",
+        "answer": [
+            "Redux DevTools are a set of tools for debugging Redux applications. They allow you to inspect actions, state changes, and time travel through the application's state history."
+        ]
+    },
+    {
+        "id": 46,
+        "topicId": 3,
+        "questionId": 46,
+        "question": "How do you use Redux DevTools?",
+        "answer": [
+            "To use Redux DevTools, you install the browser extension and configure your store with the `composeWithDevTools` function. For example:",
+            "```js",
+            "import { createStore } from 'redux';",
+            "import { composeWithDevTools } from 'redux-devtools-extension';",
+            "const store = createStore(reducer, composeWithDevTools());",
+            "```"
+        ]
+    },
+    {
+        "id": 47,
+        "topicId": 3,
+        "questionId": 47,
+        "question": "What is the `createReducer` function in Redux Toolkit?",
+        "answer": [
+            "The `createReducer` function in Redux Toolkit simplifies the process of creating reducers. It allows you to define a reducer using a builder syntax and automatically handles action types."
+        ]
+    },
+    {
+        "id": 48,
+        "topicId": 3,
+        "questionId": 48,
+        "question": "How do you handle form state with Redux?",
+        "answer": [
+            "To handle form state with Redux, you create actions and reducers to update the form state in the Redux store. You can also use libraries like `redux-form` or `formik` for more complex form handling."
+        ]
+    },
+    {
+        "id": 49,
+        "topicId": 3,
+        "questionId": 49,
+        "question": "What is `redux-persist`?",
+        "answer": [
+            "`redux-persist` is a library that allows you to persist and rehydrate the Redux store. It saves the Redux store's state to local storage or another storage engine, so it can be restored when the application is reloaded."
+        ]
+    },
+    {
+        "id": 50,
+        "topicId": 3,
+        "questionId": 50,
+        "question": "How do you use `redux-persist`?",
+        "answer": [
+            "To use `redux-persist`, you configure the store with the `persistReducer` and `persistStore` functions. For example:",
+            "```js",
+            "import { createStore } from 'redux';",
+            "import { persistStore, persistReducer } from 'redux-persist';",
+            "import storage from 'redux-persist/lib/storage';",
+            "import rootReducer from './reducers';",
+            "const persistConfig = {",
+            "  key: 'root',",
+            "  storage",
+            "};",
+            "const persistedReducer = persistReducer(persistConfig, rootReducer);",
+            "const store = createStore(persistedReducer);",
+            "const persistor = persistStore(store);",
+            "```"
+        ]
+    },
+    {
+        "id": 51,
+        "topicId": 3,
+        "questionId": 51,
+        "question": "What is Redux Toolkit?",
+        "answer": [
+            "Redux Toolkit is the official, recommended way to write Redux logic. It provides a set of tools and best practices to simplify the setup and development of Redux applications."
+        ]
+    },
+    {
+        "id": 52,
+        "topicId": 3,
+        "questionId": 52,
+        "question": "What are the main features of Redux Toolkit?",
+        "answer": [
+            "The main features of Redux Toolkit include: `configureStore`, `createSlice`, `createAsyncThunk`, `createReducer`, and `createAction`. These utilities help streamline Redux logic and reduce boilerplate."
+        ]
+    },
+    {
+        "id": 53,
+        "topicId": 3,
+        "questionId": 53,
+        "question": "How do you create a store using Redux Toolkit?",
+        "answer": [
+            "To create a store using Redux Toolkit, you use the `configureStore` function. For example:",
+            "```js",
+            "import { configureStore } from '@reduxjs/toolkit';",
+            "import rootReducer from './reducers';",
+            "const store = configureStore({",
+            "  reducer: rootReducer",
+            "});",
+            "export default store;",
+            "```"
+        ]
+    },
+    {
+        "id": 54,
+        "topicId": 3,
+        "questionId": 54,
+        "question": "What is a slice in Redux Toolkit?",
+        "answer": [
+            "A slice in Redux Toolkit is a collection of Redux reducer logic and actions for a single feature of your application. It is created using the `createSlice` function."
+        ]
+    },
+    {
+        "id": 55,
+        "topicId": 3,
+        "questionId": 55,
+        "question": "How do you create a slice using Redux Toolkit?",
+        "answer": [
+            "To create a slice using Redux Toolkit, you use the `createSlice` function. For example:",
+            "```js",
+            "import { createSlice } from '@reduxjs/toolkit';",
+            "const counterSlice = createSlice({",
+            "  name: 'counter',",
+            "  initialState: { value: 0 },",
+            "  reducers: {",
+            "    increment: state => { state.value += 1 },",
+            "    decrement: state => { state.value -= 1 }",
+            "  }",
+            "});",
+            "export const { increment, decrement } = counterSlice.actions;",
+            "export default counterSlice.reducer;",
+            "```"
+        ]
+    },
+    {
+        "id": 56,
+        "topicId": 3,
+        "questionId": 56,
+        "question": "What is `createAsyncThunk` in Redux Toolkit?",
+        "answer": [
+            "`createAsyncThunk` is a function in Redux Toolkit that helps handle asynchronous logic by generating Redux actions for the pending, fulfilled, and rejected states of a promise."
+        ]
+    },
+    {
+        "id": 57,
+        "topicId": 3,
+        "questionId": 57,
+        "question": "How do you use `createAsyncThunk` to create an asynchronous action?",
+        "answer": [
+            "To use `createAsyncThunk`, you define an asynchronous action creator. For example:",
+            "```js",
+            "import { createAsyncThunk } from '@reduxjs/toolkit';",
+            "export const fetchUser = createAsyncThunk('users/fetchUser', async (userId, thunkAPI) => {",
+            "  const response = await fetch(`/api/users/${userId}`);",
+            "  return response.json();",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 58,
+        "topicId": 3,
+        "questionId": 58,
+        "question": "What is the purpose of `configureStore` in Redux Toolkit?",
+        "answer": [
+            "`configureStore` is a function in Redux Toolkit that simplifies the process of creating a Redux store by providing good defaults and integrating with commonly used middleware and enhancers."
+        ]
+    },
+    {
+        "id": 59,
+        "topicId": 3,
+        "questionId": 59,
+        "question": "How do you add middleware to a Redux Toolkit store?",
+        "answer": [
+            "To add middleware to a Redux Toolkit store, you use the `middleware` option in `configureStore`. For example:",
+            "```js",
+            "import { configureStore } from '@reduxjs/toolkit';",
+            "import logger from 'redux-logger';",
+            "const store = configureStore({",
+            "  reducer: rootReducer,",
+            "  middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger)",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 60,
+        "topicId": 3,
+        "questionId": 60,
+        "question": "What are the benefits of using Redux Toolkit?",
+        "answer": [
+            "The benefits of using Redux Toolkit include reducing boilerplate code, providing built-in best practices, simplifying the setup of a Redux store, and improving code readability and maintainability."
+        ]
+    },
+    {
+        "id": 61,
+        "topicId": 3,
+        "questionId": 61,
+        "question": "How does Redux Toolkit improve Redux development?",
+        "answer": [
+            "Redux Toolkit improves Redux development by offering tools and abstractions that make it easier to write and manage Redux logic. It reduces the amount of boilerplate code and enforces best practices."
+        ]
+    },
+    {
+        "id": 62,
+        "topicId": 3,
+        "questionId": 62,
+        "question": "What is `createReducer` in Redux Toolkit?",
+        "answer": [
+            "`createReducer` is a function in Redux Toolkit that simplifies the process of writing reducers by allowing you to specify reducer logic as a map of action types to case reducer functions."
+        ]
+    },
+    {
+        "id": 63,
+        "topicId": 3,
+        "questionId": 63,
+        "question": "How do you use `createReducer` to create a reducer?",
+        "answer": [
+            "To use `createReducer`, you define an initial state and a map of action handlers. For example:",
+            "```js",
+            "import { createReducer } from '@reduxjs/toolkit';",
+            "const initialState = { value: 0 };",
+            "const counterReducer = createReducer(initialState, {",
+            "  increment: state => { state.value += 1 },",
+            "  decrement: state => { state.value -= 1 }",
+            "});",
+            "export default counterReducer;",
+            "```"
+        ]
+    },
+    {
+        "id": 64,
+        "topicId": 3,
+        "questionId": 64,
+        "question": "What is `createAction` in Redux Toolkit?",
+        "answer": [
+            "`createAction` is a function in Redux Toolkit that generates an action creator function for a given action type. It helps standardize action creation and reduces boilerplate."
+        ]
+    },
+    {
+        "id": 65,
+        "topicId": 3,
+        "questionId": 65,
+        "question": "How do you use `createAction` to create an action?",
+        "answer": [
+            "To use `createAction`, you provide an action type string. For example:",
+            "```js",
+            "import { createAction } from '@reduxjs/toolkit';",
+            "export const increment = createAction('counter/increment');",
+            "export const decrement = createAction('counter/decrement');",
+            "```"
+        ]
+    },
+    {
+        "id": 66,
+        "topicId": 3,
+        "questionId": 66,
+        "question": "What is `createEntityAdapter` in Redux Toolkit?",
+        "answer": [
+            "`createEntityAdapter` is a function in Redux Toolkit that generates a set of pre-built reducers and selectors for managing normalized data in a Redux state."
+        ]
+    },
+    {
+        "id": 67,
+        "topicId": 3,
+        "questionId": 67,
+        "question": "How do you use `createEntityAdapter` to manage entities?",
+        "answer": [
+            "To use `createEntityAdapter`, you create an adapter and use its methods to define your slice. For example:",
+            "```js",
+            "import { createSlice, createEntityAdapter } from '@reduxjs/toolkit';",
+            "const usersAdapter = createEntityAdapter();",
+            "const usersSlice = createSlice({",
+            "  name: 'users',",
+            "  initialState: usersAdapter.getInitialState(),",
+            "  reducers: {",
+            "    addUser: usersAdapter.addOne,",
+            "    updateUser: usersAdapter.updateOne,",
+            "    removeUser: usersAdapter.removeOne",
+            "  }",
+            "});",
+            "export const { addUser, updateUser, removeUser } = usersSlice.actions;",
+            "export default usersSlice.reducer;",
+            "```"
+        ]
+    },
+    {
+        "id": 68,
+        "topicId": 3,
+        "questionId": 68,
+        "question": "What is the purpose of the Redux Toolkit Query (RTK Query)?",
+        "answer": [
+            "RTK Query is a powerful data fetching and caching tool built into Redux Toolkit. It simplifies the process of fetching, caching, and synchronizing data with your Redux store."
+        ]
+    },
+    {
+        "id": 69,
+        "topicId": 3,
+        "questionId": 69,
+        "question": "How do you set up RTK Query in a Redux Toolkit project?",
+        "answer": [
+            "To set up RTK Query, you create an API service using `createApi` and inject it into your store. For example:",
+            "```js",
+            "import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';",
+            "export const api = createApi({",
+            "  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),",
+            "  endpoints: builder => ({",
+            "    getUser: builder.query({",
+            "      query: id => `user/${id}`",
+            "    })",
+            "  })",
+            "});",
+            "export const { useGetUserQuery } = api;",
+            "import { configureStore } from '@reduxjs/toolkit';",
+            "const store = configureStore({",
+            "  reducer: {",
+            "    [api.reducerPath]: api.reducer",
+            "  },",
+            "  middleware: getDefaultMiddleware => getDefaultMiddleware().concat(api.middleware)",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 70,
+        "topicId": 3,
+        "questionId": 70,
+        "question": "What is the `baseQuery` function in RTK Query?",
+        "answer": [
+            "`baseQuery` is a function in RTK Query that handles the process of making requests to a server. It abstracts away the details of making network requests and provides a standardized way to interact with APIs."
+        ]
+    },
+    {
+        "id": 71,
+        "topicId": 3,
+        "questionId": 71,
+        "question": "How do you define endpoints in RTK Query?",
+        "answer": [
+            "Endpoints in RTK Query are defined using the `endpoints` builder within the `createApi` function. Each endpoint represents a single operation (query or mutation) that your application can perform. For example:",
+            "```js",
+            "const api = createApi({",
+            "  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),",
+            "  endpoints: builder => ({",
+            "    getPosts: builder.query({ query: () => 'posts' }),",
+            "    addPost: builder.mutation({",
+            "      query: newPost => ({",
+            "        url: 'posts',",
+            "        method: 'POST',",
+            "        body: newPost",
+            "      })",
+            "    })",
+            "  })",
+            "});",
+            "```"
+        ]
+    },
+    {
+        "id": 72,
+        "topicId": 3,
+        "questionId": 72,
+        "question": "How do you use a query hook generated by RTK Query?",
+        "answer": [
+            "To use a query hook generated by RTK Query, you call the hook within a React component. For example:",
+            "```js",
+            "import React from 'react';",
+            "import { useGetPostsQuery } from './api';",
+            "const PostsList = () => {",
+            "  const { data, error, isLoading } = useGetPostsQuery();",
+            "  if (isLoading) return <div>Loading...</div>;",
+            "  if (error) return <div>Error: {error.message}</div>;",
+            "  return (",
+            "    <ul>",
+            "      {data.map(post => (",
+            "        <li key={post.id}>{post.title}</li>",
+            "      ))}",
+            "    </ul>",
+            "  );",
+            "};",
+            "export default PostsList;",
+            "```"
+        ]
+    },
+    {
+        "id": 73,
+        "topicId": 3,
+        "questionId": 73,
+        "question": "What is the purpose of `fetchBaseQuery` in RTK Query?",
+        "answer": [
+            "`fetchBaseQuery` is a small wrapper around the standard `fetch` function in RTK Query. It provides a standardized way to handle requests, making it easier to define and manage API interactions within the `createApi` function."
+        ]
+    },
+    {
+        "id": 74,
+        "topicId": 3,
+        "questionId": 74,
+        "question": "How do you handle caching in RTK Query?",
+        "answer": [
+            "RTK Query automatically handles caching for you. When you define a query endpoint, RTK Query will cache the result and provide caching behavior out of the box. You can customize caching behavior using various options like `keepUnusedDataFor` and `refetchOnMountOrArgChange`."
+        ]
+    },
+    {
+        "id": 75,
+        "topicId": 3,
+        "questionId": 75,
+        "question": "What are the benefits of using RTK Query?",
+        "answer": [
+            "The benefits of using RTK Query include simplified data fetching and caching, built-in support for handling loading and error states, easy integration with Redux stores, and reduced boilerplate for managing server-side state."
+        ]
+    },
+    {
+        "id": 76,
+        "topicId": 3,
+        "questionId": 76,
+        "question": "How do you define a mutation endpoint in RTK Query?",
+        "answer": [
+            "To define a mutation endpoint in RTK Query, you use the `builder.mutation` method within the `endpoints` builder. For example:",
+            "```js",
+            "const api = createApi({",
+            "  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),",
+            "  endpoints: builder => ({",
+            "    addPost: builder.mutation({",
+            "      query: newPost => ({",
+            "        url: 'posts',",
+            "        method: 'POST',",
+            "        body: newPost",
+            "      })",
+            "    })",
+            "  })",
+            "});",
+            "export const { useAddPostMutation } = api;",
+            "```"
+        ]
+    },
+    {
+        "id": 77,
+        "topicId": 3,
+        "questionId": 77,
+        "question": "What is the `builder` object in RTK Query?",
+        "answer": [
+            "The `builder` object in RTK Query is used to define query and mutation endpoints. It provides methods like `query` and `mutation` to specify how data should be fetched or modified."
+        ]
+    },
+    {
+        "id": 78,
+        "topicId": 3,
+        "questionId": 78,
+        "question": "How do you use a mutation hook generated by RTK Query?",
+        "answer": [
+            "To use a mutation hook generated by RTK Query, you call the hook within a React component and use the returned mutation function. For example:",
+            "```js",
+            "import React, { useState } from 'react';",
+            "import { useAddPostMutation } from './api';",
+            "const AddPostForm = () => {",
+            "  const [addPost, { isLoading }] = useAddPostMutation();",
+            "  const [title, setTitle] = useState('');",
+            "  const handleSubmit = async (e) => {",
+            "    e.preventDefault();",
+            "    await addPost({ title });",
+            "    setTitle('');",
+            "  };",
+            "  return (",
+            "    <form onSubmit={handleSubmit}>",
+            "      <input",
+            "        type='text'",
+            "        value={title}",
+            "        onChange={e => setTitle(e.target.value)}",
+            "        disabled={isLoading}",
+            "      />",
+            "      <button type='submit' disabled={isLoading}>Add Post</button>",
+            "    </form>",
+            "  );",
+            "};",
+            "export default AddPostForm;",
+            "```"
+        ]
+    },
+    {
+        "id": 79,
+        "topicId": 3,
+        "questionId": 79,
+        "question": "What is the `select` method in RTK Query?",
+        "answer": [
+            "The `select` method in RTK Query allows you to create memoized selectors for extracting and deriving data from the cache. It helps you efficiently read data from the store without re-rendering unnecessarily."
+        ]
+    },
+    {
+        "id": 80,
+        "topicId": 3,
+        "questionId": 80,
+        "question": "How do you handle errors in RTK Query?",
+        "answer": [
+            "RTK Query automatically handles errors for you. When using a query or mutation hook, the returned object includes an `error` property that you can use to check for and handle errors in your components."
+        ]
+    }
+]

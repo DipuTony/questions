@@ -1,0 +1,1462 @@
+[
+    {
+        "id": 1,
+        "topicId": 6,
+        "questionId": 1,
+        "question": "What is an array in JavaScript?",
+        "answer": [
+            "An array is a data structure that can hold more than one value at a time. It is an ordered collection of items which can be of any type."
+        ]
+    },
+    {
+        "id": 2,
+        "topicId": 6,
+        "questionId": 2,
+        "question": "How do you create an array in JavaScript?",
+        "answer": [
+            "You can create an array in JavaScript using the array literal syntax or the Array constructor.",
+            "Example using array literal:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "```",
+            "Example using Array constructor:",
+            "```js",
+            "let fruits = new Array('Apple', 'Banana');",
+            "```"
+        ]
+    },
+    {
+        "id": 3,
+        "topicId": 6,
+        "questionId": 3,
+        "question": "How do you access elements in an array?",
+        "answer": [
+            "You can access elements in an array using their index. Array indices start from 0.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let firstFruit = fruits[0]; // Apple",
+            "let secondFruit = fruits[1]; // Banana",
+            "```"
+        ]
+    },
+    {
+        "id": 4,
+        "topicId": 6,
+        "questionId": 4,
+        "question": "How do you add elements to an array in JavaScript?",
+        "answer": [
+            "You can add elements to an array using the `push`, `unshift`, or `splice` methods.",
+            "Example using `push` (adds to the end):",
+            "```js",
+            "let fruits = ['Apple'];",
+            "fruits.push('Banana'); // ['Apple', 'Banana']",
+            "```",
+            "Example using `unshift` (adds to the beginning):",
+            "```js",
+            "let fruits = ['Apple'];",
+            "fruits.unshift('Banana'); // ['Banana', 'Apple']",
+            "```",
+            "Example using `splice` (adds at a specific index):",
+            "```js",
+            "let fruits = ['Apple'];",
+            "fruits.splice(1, 0, 'Banana'); // ['Apple', 'Banana']",
+            "```"
+        ]
+    },
+    {
+        "id": 5,
+        "topicId": 6,
+        "questionId": 5,
+        "question": "How do you remove elements from an array in JavaScript?",
+        "answer": [
+            "You can remove elements from an array using the `pop`, `shift`, or `splice` methods.",
+            "Example using `pop` (removes from the end):",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "fruits.pop(); // ['Apple']",
+            "```",
+            "Example using `shift` (removes from the beginning):",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "fruits.shift(); // ['Banana']",
+            "```",
+            "Example using `splice` (removes at a specific index):",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Cherry'];",
+            "fruits.splice(1, 1); // ['Apple', 'Cherry']",
+            "```"
+        ]
+    },
+    {
+        "id": 6,
+        "topicId": 6,
+        "questionId": 6,
+        "question": "How do you find the length of an array in JavaScript?",
+        "answer": [
+            "You can find the length of an array using the `length` property.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let length = fruits.length; // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 7,
+        "topicId": 6,
+        "questionId": 7,
+        "question": "How do you iterate over an array in JavaScript?",
+        "answer": [
+            "You can iterate over an array using loops such as `for`, `for...of`, `forEach`, etc.",
+            "Example using `for` loop:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "for (let i = 0; i < fruits.length; i++) {",
+            "  console.log(fruits[i]);",
+            "}",
+            "```",
+            "Example using `for...of` loop:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "for (let fruit of fruits) {",
+            "  console.log(fruit);",
+            "}",
+            "```",
+            "Example using `forEach` method:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "fruits.forEach(fruit => console.log(fruit));",
+            "```"
+        ]
+    },
+    {
+        "id": 8,
+        "topicId": 6,
+        "questionId": 8,
+        "question": "How do you sort an array in JavaScript?",
+        "answer": [
+            "You can sort an array using the `sort` method. By default, it sorts elements as strings.",
+            "```js",
+            "let fruits = ['Banana', 'Apple', 'Cherry'];",
+            "fruits.sort(); // ['Apple', 'Banana', 'Cherry']",
+            "```",
+            "For numerical sorting, you need to provide a compare function:",
+            "```js",
+            "let numbers = [4, 2, 5, 1, 3];",
+            "numbers.sort((a, b) => a - b); // [1, 2, 3, 4, 5]",
+            "```"
+        ]
+    },
+    {
+        "id": 9,
+        "topicId": 6,
+        "questionId": 9,
+        "question": "How do you filter elements in an array?",
+        "answer": [
+            "You can filter elements in an array using the `filter` method.",
+            "```js",
+            "let numbers = [1, 2, 3, 4, 5];",
+            "let evenNumbers = numbers.filter(number => number % 2 === 0); // [2, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 10,
+        "topicId": 6,
+        "questionId": 10,
+        "question": "How do you find an element in an array?",
+        "answer": [
+            "You can find an element in an array using the `find` method.",
+            "```js",
+            "let numbers = [1, 2, 3, 4, 5];",
+            "let number = numbers.find(number => number === 3); // 3",
+            "```"
+        ]
+    },
+    {
+        "id": 11,
+        "topicId": 6,
+        "questionId": 11,
+        "question": "How do you check if an array contains a certain element?",
+        "answer": [
+            "You can check if an array contains a certain element using the `includes` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let hasApple = fruits.includes('Apple'); // true",
+            "```"
+        ]
+    },
+    {
+        "id": 12,
+        "topicId": 6,
+        "questionId": 12,
+        "question": "How do you join all elements of an array into a string?",
+        "answer": [
+            "You can join all elements of an array into a string using the `join` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Cherry'];",
+            "let result = fruits.join(', '); // 'Apple, Banana, Cherry'",
+            "```"
+        ]
+    },
+    {
+        "id": 13,
+        "topicId": 6,
+        "questionId": 13,
+        "question": "How do you merge two or more arrays in JavaScript?",
+        "answer": [
+            "You can merge two or more arrays using the `concat` method or the spread operator.",
+            "Example using `concat` method:",
+            "```js",
+            "let array1 = [1, 2];",
+            "let array2 = [3, 4];",
+            "let mergedArray = array1.concat(array2); // [1, 2, 3, 4]",
+            "```",
+            "Example using the spread operator:",
+            "```js",
+            "let array1 = [1, 2];",
+            "let array2 = [3, 4];",
+            "let mergedArray = [...array1, ...array2]; // [1, 2, 3, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 14,
+        "topicId": 6,
+        "questionId": 14,
+        "question": "How do you create a shallow copy of an array?",
+        "answer": [
+            "You can create a shallow copy of an array using the `slice` method or the spread operator.",
+            "Example using `slice` method:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let copy = fruits.slice(); // ['Apple', 'Banana']",
+            "```",
+            "Example using the spread operator:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let copy = [...fruits]; // ['Apple', 'Banana']",
+            "```"
+        ]
+    },
+    {
+        "id": 15,
+        "topicId": 6,
+        "questionId": 15,
+        "question": "How do you find the index of an element in an array?",
+        "answer": [
+            "You can find the index of an element in an array using the `indexOf` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Cherry'];",
+            "let index = fruits.indexOf('Banana'); // 1",
+            "```"
+        ]
+    },
+    {
+        "id": 16,
+        "topicId": 6,
+        "questionId": 16,
+        "question": "How do you reverse an array in JavaScript?",
+        "answer": [
+            "You can reverse an array using the `reverse` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Cherry'];",
+            "fruits.reverse(); // ['Cherry', 'Banana', 'Apple']",
+            "```"
+        ]
+    },
+    {
+        "id": 17,
+        "topicId": 6,
+        "questionId": 17,
+        "question": "How do you split an array into chunks of a specified size?",
+        "answer": [
+            "You can split an array into chunks using a loop or the `reduce` method.",
+            "Example using a loop:",
+            "```js",
+            "function chunkArray(arr, size) {",
+            "  let result = [];",
+            "  for (let i = 0; i < arr.length; i += size) {",
+            "    result.push(arr.slice(i, i + size));",
+            "  }",
+            "  return result;",
+            "}",
+            "let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];",
+            "let chunks = chunkArray(numbers, 3); // [[1, 2, 3], [4, 5, 6], [7, 8, 9]]",
+            "```"
+        ]
+    },
+    {
+        "id": 18,
+        "topicId": 6,
+        "questionId": 18,
+        "question": "How do you remove duplicates from an array?",
+        "answer": [
+            "You can remove duplicates from an array using a `Set` or `filter` method.",
+            "Example using `Set`:",
+            "```js",
+            "let numbers = [1, 2, 2, 3, 4, 4];",
+            "let uniqueNumbers = [...new Set(numbers)]; // [1, 2, 3, 4]",
+            "```",
+            "Example using `filter` method:",
+            "```js",
+            "let numbers = [1, 2, 2, 3, 4, 4];",
+            "let uniqueNumbers = numbers.filter((value, index, self) => self.indexOf(value) === index); // [1, 2, 3, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 19,
+        "topicId": 6,
+        "questionId": 19,
+        "question": "How do you find the maximum value in an array?",
+        "answer": [
+            "You can find the maximum value in an array using the `Math.max` method with the spread operator.",
+            "```js",
+            "let numbers = [1, 5, 3, 9, 2];",
+            "let max = Math.max(...numbers); // 9",
+            "```"
+        ]
+    },
+    {
+        "id": 20,
+        "topicId": 6,
+        "questionId": 20,
+        "question": "How do you find the minimum value in an array?",
+        "answer": [
+            "You can find the minimum value in an array using the `Math.min` method with the spread operator.",
+            "```js",
+            "let numbers = [1, 5, 3, 9, 2];",
+            "let min = Math.min(...numbers); // 1",
+            "```"
+        ]
+    },
+    {
+        "id": 21,
+        "topicId": 6,
+        "questionId": 21,
+        "question": "How do you convert an array to a string?",
+        "answer": [
+            "You can convert an array to a string using the `toString` method or `join` method.",
+            "Example using `toString`:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let str = fruits.toString(); // 'Apple,Banana'",
+            "```",
+            "Example using `join`:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let str = fruits.join(', '); // 'Apple, Banana'",
+            "```"
+        ]
+    },
+    {
+        "id": 22,
+        "topicId": 6,
+        "questionId": 22,
+        "question": "How do you flatten a nested array?",
+        "answer": [
+            "You can flatten a nested array using the `flat` method or recursion.",
+            "Example using `flat` method:",
+            "```js",
+            "let nestedArray = [1, [2, [3, [4]]]];",
+            "let flatArray = nestedArray.flat(2); // [1, 2, 3, [4]]",
+            "```",
+            "Example using recursion:",
+            "```js",
+            "function flattenArray(arr) {",
+            "  return arr.reduce((acc, val) => Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val), []);",
+            "}",
+            "let nestedArray = [1, [2, [3, [4]]]];",
+            "let flatArray = flattenArray(nestedArray); // [1, 2, 3, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 23,
+        "topicId": 6,
+        "questionId": 23,
+        "question": "How do you create a shallow copy of an array?",
+        "answer": [
+            "You can create a shallow copy of an array using the `slice` method or the spread operator.",
+            "Example using `slice` method:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let copy = fruits.slice(); // ['Apple', 'Banana']",
+            "```",
+            "Example using the spread operator:",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let copy = [...fruits]; // ['Apple', 'Banana']",
+            "```"
+        ]
+    },
+    {
+        "id": 24,
+        "topicId": 6,
+        "questionId": 24,
+        "question": "How do you convert a string to an array?",
+        "answer": [
+            "You can convert a string to an array using the `split` method.",
+            "```js",
+            "let str = 'Apple, Banana, Cherry';",
+            "let arr = str.split(', '); // ['Apple', 'Banana', 'Cherry']",
+            "```"
+        ]
+    },
+    {
+        "id": 25,
+        "topicId": 6,
+        "questionId": 25,
+        "question": "How do you check if an array is empty?",
+        "answer": [
+            "You can check if an array is empty by checking if its length is 0.",
+            "```js",
+            "let fruits = [];",
+            "let isEmpty = fruits.length === 0; // true",
+            "```"
+        ]
+    },
+    {
+        "id": 26,
+        "topicId": 6,
+        "questionId": 26,
+        "question": "How do you find the sum of all elements in an array?",
+        "answer": [
+            "You can find the sum of all elements in an array using the `reduce` method.",
+            "```js",
+            "let numbers = [1, 2, 3, 4];",
+            "let sum = numbers.reduce((acc, curr) => acc + curr, 0); // 10",
+            "```"
+        ]
+    },
+    {
+        "id": 27,
+        "topicId": 6,
+        "questionId": 27,
+        "question": "How do you remove the last element from an array?",
+        "answer": [
+            "You can remove the last element from an array using the `pop` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "fruits.pop(); // ['Apple']",
+            "```"
+        ]
+    },
+    {
+        "id": 28,
+        "topicId": 6,
+        "questionId": 28,
+        "question": "How do you remove the first element from an array?",
+        "answer": [
+            "You can remove the first element from an array using the `shift` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "fruits.shift(); // ['Banana']",
+            "```"
+        ]
+    },
+    {
+        "id": 29,
+        "topicId": 6,
+        "questionId": 29,
+        "question": "How do you add an element to the end of an array?",
+        "answer": [
+            "You can add an element to the end of an array using the `push` method.",
+            "```js",
+            "let fruits = ['Apple'];",
+            "fruits.push('Banana'); // ['Apple', 'Banana']",
+            "```"
+        ]
+    },
+    {
+        "id": 30,
+        "topicId": 6,
+        "questionId": 30,
+        "question": "How do you add an element to the beginning of an array?",
+        "answer": [
+            "You can add an element to the beginning of an array using the `unshift` method.",
+            "```js",
+            "let fruits = ['Apple'];",
+            "fruits.unshift('Banana'); // ['Banana', 'Apple']",
+            "```"
+        ]
+    },
+    {
+        "id": 31,
+        "topicId": 6,
+        "questionId": 31,
+        "question": "How do you merge two arrays without modifying the original arrays?",
+        "answer": [
+            "You can merge two arrays using the spread operator or `concat` method, which does not modify the original arrays.",
+            "Example using spread operator:",
+            "```js",
+            "let array1 = [1, 2];",
+            "let array2 = [3, 4];",
+            "let mergedArray = [...array1, ...array2]; // [1, 2, 3, 4]",
+            "```",
+            "Example using `concat` method:",
+            "```js",
+            "let array1 = [1, 2];",
+            "let array2 = [3, 4];",
+            "let mergedArray = array1.concat(array2); // [1, 2, 3, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 32,
+        "topicId": 6,
+        "questionId": 32,
+        "question": "How do you find the average of all elements in an array?",
+        "answer": [
+            "You can find the average of all elements in an array using the `reduce` method to calculate the sum and then dividing by the length of the array.",
+            "```js",
+            "let numbers = [1, 2, 3, 4];",
+            "let sum = numbers.reduce((acc, curr) => acc + curr, 0);",
+            "let average = sum / numbers.length; // 2.5",
+            "```"
+        ]
+    },
+    {
+        "id": 33,
+        "topicId": 6,
+        "questionId": 33,
+        "question": "How do you remove elements from an array based on a condition?",
+        "answer": [
+            "You can remove elements from an array based on a condition using the `filter` method.",
+            "```js",
+            "let numbers = [1, 2, 3, 4, 5];",
+            "let filtered = numbers.filter(number => number > 3); // [4, 5]",
+            "```"
+        ]
+    },
+    {
+        "id": 34,
+        "topicId": 6,
+        "questionId": 34,
+        "question": "How do you check if a value is an array?",
+        "answer": [
+            "You can check if a value is an array using the `Array.isArray` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let isArray = Array.isArray(fruits); // true",
+            "```"
+        ]
+    },
+    {
+        "id": 35,
+        "topicId": 6,
+        "questionId": 35,
+        "question": "How do you get the first element of an array?",
+        "answer": [
+            "You can get the first element of an array by accessing the element at index 0.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let firstFruit = fruits[0]; // 'Apple'",
+            "```"
+        ]
+    },
+    {
+        "id": 36,
+        "topicId": 6,
+        "questionId": 36,
+        "question": "How do you get the last element of an array?",
+        "answer": [
+            "You can get the last element of an array by accessing the element at index `length - 1`.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let lastFruit = fruits[fruits.length - 1]; // 'Banana'",
+            "```"
+        ]
+    },
+    {
+        "id": 37,
+        "topicId": 6,
+        "questionId": 37,
+        "question": "How do you check if an array contains a specific value?",
+        "answer": [
+            "You can check if an array contains a specific value using the `includes` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let hasBanana = fruits.includes('Banana'); // true",
+            "```"
+        ]
+    },
+    {
+        "id": 38,
+        "topicId": 6,
+        "questionId": 38,
+        "question": "How do you convert an array of objects to an array of values?",
+        "answer": [
+            "You can convert an array of objects to an array of values using the `map` method.",
+            "```js",
+            "let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }];",
+            "let names = people.map(person => person.name); // ['John', 'Jane']",
+            "```"
+        ]
+    },
+    {
+        "id": 39,
+        "topicId": 6,
+        "questionId": 39,
+        "question": "How do you find the difference between two arrays?",
+        "answer": [
+            "You can find the difference between two arrays using the `filter` method.",
+            "```js",
+            "let array1 = [1, 2, 3];",
+            "let array2 = [3, 4, 5];",
+            "let difference = array1.filter(value => !array2.includes(value)); // [1, 2]",
+            "```"
+        ]
+    },
+    {
+        "id": 40,
+        "topicId": 6,
+        "questionId": 40,
+        "question": "How do you perform a map-reduce operation on an array?",
+        "answer": [
+            "You can perform a map-reduce operation on an array by chaining the `map` and `reduce` methods.",
+            "```js",
+            "let numbers = [1, 2, 3, 4];",
+            "let sumOfSquares = numbers.map(x => x * x).reduce((acc, curr) => acc + curr, 0); // 30",
+            "```"
+        ]
+    },
+    {
+        "id": 41,
+        "topicId": 6,
+        "questionId": 41,
+        "question": "How do you find the intersection of two arrays?",
+        "answer": [
+            "You can find the intersection of two arrays using the `filter` and `includes` methods.",
+            "```js",
+            "let array1 = [1, 2, 3];",
+            "let array2 = [2, 3, 4];",
+            "let intersection = array1.filter(value => array2.includes(value)); // [2, 3]",
+            "```"
+        ]
+    },
+    {
+        "id": 42,
+        "topicId": 6,
+        "questionId": 42,
+        "question": "How do you get the unique values from an array of objects based on a property?",
+        "answer": [
+            "You can get unique values based on a property using the `filter` and `map` methods.",
+            "```js",
+            "let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }, { name: 'John', age: 40 }];",
+            "let uniqueNames = [...new Set(people.map(person => person.name))]; // ['John', 'Jane']",
+            "```"
+        ]
+    },
+    {
+        "id": 43,
+        "topicId": 6,
+        "questionId": 43,
+        "question": "How do you group an array of objects by a specific property?",
+        "answer": [
+            "You can group an array of objects by a specific property using the `reduce` method.",
+            "```js",
+            "let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }, { name: 'John', age: 40 }];",
+            "let groupedByName = people.reduce((acc, person) => {",
+            "  if (!acc[person.name]) {",
+            "    acc[person.name] = [];",
+            "  }",
+            "  acc[person.name].push(person);",
+            "  return acc;",
+            "}, {});",
+            "```"
+        ]
+    },
+    {
+        "id": 44,
+        "topicId": 6,
+        "questionId": 44,
+        "question": "How do you sort an array of objects by a property?",
+        "answer": [
+            "You can sort an array of objects by a property using the `sort` method.",
+            "```js",
+            "let people = [{ name: 'John', age: 30 }, { name: 'Jane', age: 25 }];",
+            "people.sort((a, b) => a.age - b.age); // [{ name: 'Jane', age: 25 }, { name: 'John', age: 30 }]",
+            "```"
+        ]
+    },
+    {
+        "id": 45,
+        "topicId": 6,
+        "questionId": 45,
+        "question": "How do you get the length of an array?",
+        "answer": [
+            "You can get the length of an array using the `length` property.",
+            "```js",
+            "let fruits = ['Apple', 'Banana'];",
+            "let length = fruits.length; // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 46,
+        "topicId": 6,
+        "questionId": 46,
+        "question": "How do you reverse an array in JavaScript?",
+        "answer": [
+            "You can reverse an array using the `reverse` method.",
+            "```js",
+            "let arr = [1, 2, 3];",
+            "let reversedArr = arr.reverse(); // [3, 2, 1]",
+            "```"
+        ]
+    },
+    {
+        "id": 47,
+        "topicId": 6,
+        "questionId": 47,
+        "question": "How do you find the maximum value in an array?",
+        "answer": [
+            "You can find the maximum value using the `Math.max` function along with the spread operator.",
+            "```js",
+            "let numbers = [1, 2, 3, 4, 5];",
+            "let max = Math.max(...numbers); // 5",
+            "```"
+        ]
+    },
+    {
+        "id": 48,
+        "topicId": 6,
+        "questionId": 48,
+        "question": "How do you remove duplicates from an array?",
+        "answer": [
+            "You can remove duplicates from an array using a `Set`.",
+            "```js",
+            "let numbers = [1, 2, 2, 3, 4, 4, 5];",
+            "let uniqueNumbers = [...new Set(numbers)]; // [1, 2, 3, 4, 5]",
+            "```"
+        ]
+    },
+    {
+        "id": 49,
+        "topicId": 6,
+        "questionId": 49,
+        "question": "How do you flatten a nested array?",
+        "answer": [
+            "You can flatten a nested array using the `flat` method.",
+            "```js",
+            "let nestedArray = [1, [2, [3, 4], 5]];",
+            "let flatArray = nestedArray.flat(2); // [1, 2, 3, 4, 5]",
+            "```"
+        ]
+    },
+    {
+        "id": 50,
+        "topicId": 6,
+        "questionId": 50,
+        "question": "How do you sort an array of numbers in ascending order?",
+        "answer": [
+            "You can sort an array of numbers using the `sort` method with a compare function.",
+            "```js",
+            "let numbers = [4, 2, 5, 1, 3];",
+            "numbers.sort((a, b) => a - b); // [1, 2, 3, 4, 5]",
+            "```"
+        ]
+    },
+    {
+        "id": 51,
+        "topicId": 6,
+        "questionId": 51,
+        "question": "How do you find the index of an element in an array?",
+        "answer": [
+            "You can find the index of an element using the `indexOf` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Orange'];",
+            "let index = fruits.indexOf('Banana'); // 1",
+            "```"
+        ]
+    },
+    {
+        "id": 52,
+        "topicId": 6,
+        "questionId": 52,
+        "question": "How do you check if an array contains a specific element?",
+        "answer": [
+            "You can check if an array contains a specific element using the `includes` method.",
+            "```js",
+            "let fruits = ['Apple', 'Banana', 'Orange'];",
+            "let hasBanana = fruits.includes('Banana'); // true",
+            "```"
+        ]
+    },
+    {
+        "id": 53,
+        "topicId": 6,
+        "questionId": 53,
+        "question": "How do you find the sum of all elements in an array?",
+        "answer": [
+            "You can find the sum of all elements in an array using the `reduce` method.",
+            "```js",
+            "let numbers = [1, 2, 3, 4, 5];",
+            "let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0); // 15",
+            "```"
+        ]
+    },
+    {
+        "id": 54,
+        "topicId": 6,
+        "questionId": 54,
+        "question": "How do you find the intersection of two arrays?",
+        "answer": [
+            "You can find the intersection of two arrays using the `filter` and `includes` methods.",
+            "```js",
+            "let array1 = [1, 2, 3, 4];",
+            "let array2 = [3, 4, 5, 6];",
+            "let intersection = array1.filter(value => array2.includes(value)); // [3, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 55,
+        "topicId": 6,
+        "questionId": 55,
+        "question": "How do you merge two arrays?",
+        "answer": [
+            "You can merge two arrays using the spread operator.",
+            "```js",
+            "let array1 = [1, 2, 3];",
+            "let array2 = [4, 5, 6];",
+            "let mergedArray = [...array1, ...array2]; // [1, 2, 3, 4, 5, 6]",
+            "```"
+        ]
+    },
+    {
+        "id": 56,
+        "topicId": 6,
+        "questionId": 56,
+        "question": "How do you check if an array is empty?",
+        "answer": [
+            "You can check if an array is empty by checking its `length` property.",
+            "```js",
+            "let arr = [];",
+            "let isEmpty = arr.length === 0; // true",
+            "```"
+        ]
+    },
+    {
+        "id": 57,
+        "topicId": 6,
+        "questionId": 57,
+        "question": "How do you clone an array?",
+        "answer": [
+            "You can clone an array using the spread operator.",
+            "```js",
+            "let arr = [1, 2, 3];",
+            "let clone = [...arr]; // [1, 2, 3]",
+            "```"
+        ]
+    },
+    {
+        "id": 58,
+        "topicId": 6,
+        "questionId": 58,
+        "question": "How do you remove a specific element from an array?",
+        "answer": [
+            "You can remove a specific element using the `filter` method.",
+            "```js",
+            "let arr = [1, 2, 3, 4];",
+            "let newArr = arr.filter(item => item !== 3); // [1, 2, 4]",
+            "```"
+        ]
+    },
+    {
+        "id": 59,
+        "topicId": 6,
+        "questionId": 59,
+        "question": "How do you find the first element that matches a condition?",
+        "answer": [
+            "You can find the first element that matches a condition using the `find` method.",
+            "```js",
+            "let arr = [1, 2, 3, 4];",
+            "let result = arr.find(item => item > 2); // 3",
+            "```"
+        ]
+    },
+    {
+        "id": 60,
+        "topicId": 6,
+        "questionId": 60,
+        "question": "How do you find the index of the first element that matches a condition?",
+        "answer": [
+            "You can find the index of the first element that matches a condition using the `findIndex` method.",
+            "```js",
+            "let arr = [1, 2, 3, 4];",
+            "let index = arr.findIndex(item => item > 2); // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 61,
+        "topicId": 6,
+        "questionId": 61,
+        "question": "How do you create an array with a given length and value?",
+        "answer": [
+            "You can create an array with a given length and value using the `Array` constructor and `fill` method.",
+            "```js",
+            "let arr = Array(5).fill(0); // [0, 0, 0, 0, 0]",
+            "```"
+        ]
+    },
+    {
+        "id": 62,
+        "topicId": 6,
+        "questionId": 62,
+        "question": "How do you shuffle an array?",
+        "answer": [
+            "You can shuffle an array using the Fisher-Yates algorithm.",
+            "```js",
+            "let arr = [1, 2, 3, 4, 5];",
+            "for (let i = arr.length - 1; i > 0; i--) {",
+            "  let j = Math.floor(Math.random() * (i + 1));",
+            "  [arr[i], arr[j]] = [arr[j], arr[i]];",
+            "}",
+            "// arr is now shuffled",
+            "```"
+        ]
+    },
+    {
+        "id": 63,
+        "topicId": 6,
+        "questionId": 63,
+        "question": "How do you rotate an array k times?",
+        "answer": [
+            "You can rotate an array k times using the `splice` and `concat` methods.",
+            "```js",
+            "let arr = [1, 2, 3, 4, 5];",
+            "let k = 2;",
+            "let rotatedArr = arr.slice(k).concat(arr.slice(0, k)); // [3, 4, 5, 1, 2]",
+            "```"
+        ]
+    },
+    {
+        "id": 64,
+        "topicId": 6,
+        "questionId": 64,
+        "question": "How do you find the kth largest element in an array?",
+        "answer": [
+            "You can find the kth largest element by sorting the array and accessing the element at the kth position.",
+            "```js",
+            "let arr = [3, 2, 1, 5, 6, 4];",
+            "let k = 2;",
+            "arr.sort((a, b) => b - a);",
+            "let kthLargest = arr[k - 1]; // 5",
+            "```"
+        ]
+    },
+    {
+        "id": 65,
+        "topicId": 6,
+        "questionId": 65,
+        "question": "How do you merge two sorted arrays?",
+        "answer": [
+            "You can merge two sorted arrays using the two-pointer technique.",
+            "```js",
+            "let arr1 = [1, 3, 5, 7];",
+            "let arr2 = [2, 4, 6, 8];",
+            "let mergedArr = [];",
+            "let i = 0, j = 0;",
+            "while (i < arr1.length && j < arr2.length) {",
+            "  if (arr1[i] < arr2[j]) {",
+            "    mergedArr.push(arr1[i++]);",
+            "  } else {",
+            "    mergedArr.push(arr2[j++]);",
+            "  }",
+            "}",
+            "while (i < arr1.length) mergedArr.push(arr1[i++]);",
+            "while (j < arr2.length) mergedArr.push(arr2[j++]);",
+            "// mergedArr: [1, 2, 3, 4, 5, 6, 7, 8]",
+            "```"
+        ]
+    },
+    {
+        "id": 66,
+        "topicId": 6,
+        "questionId": 66,
+        "question": "How do you find the majority element in an array?",
+        "answer": [
+            "You can find the majority element using the Boyer-Moore Voting Algorithm.",
+            "```js",
+            "let arr = [2, 2, 1, 1, 1, 2, 2];",
+            "let count = 0;",
+            "let candidate = null;",
+            "for (let num of arr) {",
+            "  if (count === 0) {",
+            "    candidate = num;",
+            "  }",
+            "  count += (num === candidate) ? 1 : -1;",
+            "}",
+            "let majorityElement = candidate; // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 67,
+        "topicId": 6,
+        "questionId": 67,
+        "question": "How do you find the longest increasing subsequence?",
+        "answer": [
+            "You can find the longest increasing subsequence using dynamic programming.",
+            "```js",
+            "let arr = [10, 9, 2, 5, 3, 7, 101, 18];",
+            "let dp = new Array(arr.length).fill(1);",
+            "for (let i = 1; i < arr.length; i++) {",
+            "  for (let j = 0; j < i; j++) {",
+            "    if (arr[i] > arr[j]) {",
+            "      dp[i] = Math.max(dp[i], dp[j] + 1);",
+            "    }",
+            "  }",
+            "}",
+            "let lis = Math.max(...dp); // 4",
+            "```"
+        ]
+    },
+    {
+        "id": 68,
+        "topicId": 6,
+        "questionId": 68,
+        "question": "How do you check if an array contains a subarray with sum zero?",
+        "answer": [
+            "You can check if an array contains a subarray with sum zero using a hash set.",
+            "```js",
+            "let arr = [4, 2, -3, 1, 6];",
+            "let set = new Set();",
+            "let sum = 0;",
+            "let found = false;",
+            "for (let num of arr) {",
+            "  sum += num;",
+            "  if (sum === 0 || set.has(sum)) {",
+            "    found = true;",
+            "    break;",
+            "  }",
+            "  set.add(sum);",
+            "}",
+            "let hasSubarrayWithSumZero = found; // true",
+            "```"
+        ]
+    },
+    {
+        "id": 69,
+        "topicId": 6,
+        "questionId": 69,
+        "question": "How do you implement binary search on a sorted array?",
+        "answer": [
+            "You can implement binary search using a while loop.",
+            "```js",
+            "function binarySearch(arr, target) {",
+            "  let left = 0;",
+            "  let right = arr.length - 1;",
+            "  while (left <= right) {",
+            "    let mid = Math.floor((left + right) / 2);",
+            "    if (arr[mid] === target) {",
+            "      return mid;",
+            "    } else if (arr[mid] < target) {",
+            "      left = mid + 1;",
+            "    } else {",
+            "      right = mid - 1;",
+            "    }",
+            "  }",
+            "  return -1;",
+            "}",
+            "// Usage: binarySearch([1, 2, 3, 4, 5], 3); // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 70,
+        "topicId": 6,
+        "questionId": 70,
+        "question": "How do you find the minimum element in a rotated sorted array?",
+        "answer": [
+            "You can find the minimum element in a rotated sorted array using binary search.",
+            "```js",
+            "function findMin(nums) {",
+            "  let left = 0;",
+            "  let right = nums.length - 1;",
+            "  while (left < right) {",
+            "    let mid = Math.floor((left + right) / 2);",
+            "    if (nums[mid] > nums[right]) {",
+            "      left = mid + 1;",
+            "    } else {",
+            "      right = mid;",
+            "    }",
+            "  }",
+            "  return nums[left];",
+            "}",
+            "// Usage: findMin([4, 5, 6, 7, 0, 1, 2]); // 0",
+            "```"
+        ]
+    },
+    {
+        "id": 71,
+        "topicId": 6,
+        "questionId": 71,
+        "question": "How do you find the peak element in an array?",
+        "answer": [
+            "You can find the peak element using binary search.",
+            "```js",
+            "function findPeakElement(nums) {",
+            "  let left = 0;",
+            "  let right = nums.length - 1;",
+            "  while (left < right) {",
+            "    let mid = Math.floor((left + right) / 2);",
+            "    if (nums[mid] > nums[mid + 1]) {",
+            "      right = mid;",
+            "    } else {",
+            "      left = mid + 1;",
+            "    }",
+            "  }",
+            "  return left;",
+            "}",
+            "// Usage: findPeakElement([1, 2, 1, 3, 5, 6, 4]); // 5",
+            "```"
+        ]
+    },
+    {
+        "id": 72,
+        "topicId": 6,
+        "questionId": 72,
+        "question": "How do you remove duplicates from a sorted array in place?",
+        "answer": [
+            "You can remove duplicates from a sorted array in place using a two-pointer technique.",
+            "```js",
+            "function removeDuplicates(nums) {",
+            "  if (nums.length === 0) return 0;",
+            "  let i = 0;",
+            "  for (let j = 1; j < nums.length; j++) {",
+            "    if (nums[j] !== nums[i]) {",
+            "      i++;",
+            "      nums[i] = nums[j];",
+            "    }",
+            "  }",
+            "  return i + 1;",
+            "}",
+            "// Usage: removeDuplicates([1, 1, 2]); // 2, nums = [1, 2]",
+            "```"
+        ]
+    },
+    {
+        "id": 73,
+        "topicId": 6,
+        "questionId": 73,
+        "question": "How do you find the intersection of two arrays II (duplicates allowed)?",
+        "answer": [
+            "You can find the intersection of two arrays II using a hash map.",
+            "```js",
+            "function intersect(nums1, nums2) {",
+            "  let map = new Map();",
+            "  let result = [];",
+            "  for (let num of nums1) {",
+            "    map.set(num, (map.get(num) || 0) + 1);",
+            "  }",
+            "  for (let num of nums2) {",
+            "    if (map.get(num) > 0) {",
+            "      result.push(num);",
+            "      map.set(num, map.get(num) - 1);",
+            "    }",
+            "  }",
+            "  return result;",
+            "}",
+            "// Usage: intersect([1, 2, 2, 1], [2, 2]); // [2, 2]",
+            "```"
+        ]
+    },
+    {
+        "id": 74,
+        "topicId": 6,
+        "questionId": 74,
+        "question": "How do you find the longest common prefix among an array of strings?",
+        "answer": [
+            "You can find the longest common prefix by comparing characters.",
+            "```js",
+            "function longestCommonPrefix(strs) {",
+            "  if (strs.length === 0) return '';",
+            "  let prefix = strs[0];",
+            "  for (let i = 1; i < strs.length; i++) {",
+            "    while (strs[i].indexOf(prefix) !== 0) {",
+            "      prefix = prefix.substring(0, prefix.length - 1);",
+            "      if (prefix === '') return '';",
+            "    }",
+            "  }",
+            "  return prefix;",
+            "}",
+            "// Usage: longestCommonPrefix(['flower', 'flow', 'flight']); // 'fl'",
+            "```"
+        ]
+    },
+    {
+        "id": 75,
+        "topicId": 6,
+        "questionId": 75,
+        "question": "How do you implement a queue using two stacks?",
+        "answer": [
+            "You can implement a queue using two stacks by using one stack for enqueuing and one for dequeuing.",
+            "```js",
+            "class MyQueue {",
+            "  constructor() {",
+            "    this.stack1 = [];",
+            "    this.stack2 = [];",
+            "  }",
+            "  enqueue(x) {",
+            "    this.stack1.push(x);",
+            "  }",
+            "  dequeue() {",
+            "    if (!this.stack2.length) {",
+            "      while (this.stack1.length) {",
+            "        this.stack2.push(this.stack1.pop());",
+            "      }",
+            "    }",
+            "    return this.stack2.pop();",
+            "  }",
+            "  front() {",
+            "    if (this.stack2.length) return this.stack2[this.stack2.length - 1];",
+            "    return this.stack1[0];",
+            "  }",
+            "  empty() {",
+            "    return !this.stack1.length && !this.stack2.length;",
+            "  }",
+            "}",
+            "// Usage: let q = new MyQueue(); q.enqueue(1); q.enqueue(2); q.dequeue(); // 1",
+            "```"
+        ]
+    },
+    {
+        "id": 76,
+        "topicId": 6,
+        "questionId": 76,
+        "question": "How do you find the missing number in a given integer array of 1 to n?",
+        "answer": [
+            "You can find the missing number using the formula for the sum of the first n natural numbers.",
+            "```js",
+            "function missingNumber(nums) {",
+            "  let n = nums.length;",
+            "  let total = (n * (n + 1)) / 2;",
+            "  let sum = nums.reduce((acc, num) => acc + num, 0);",
+            "  return total - sum;",
+            "}",
+            "// Usage: missingNumber([3, 0, 1]); // 2",
+            "```"
+        ]
+    },
+    {
+        "id": 77,
+        "topicId": 6,
+        "questionId": 77,
+        "question": "How do you find the first non-repeating character in a string?",
+        "answer": [
+            "You can find the first non-repeating character by using a hash map to count character frequencies.",
+            "```js",
+            "function firstUniqChar(s) {",
+            "  const charCount = {};",
+            "  for (let char of s) {",
+            "    charCount[char] = (charCount[char] || 0) + 1;",
+            "  }",
+            "  for (let i = 0; i < s.length; i++) {",
+            "    if (charCount[s[i]] === 1) {",
+            "      return i;",
+            "    }",
+            "  }",
+            "  return -1;",
+            "}",
+            "// Usage:",
+            "console.log(firstUniqChar('leetcode')); // 0",
+            "console.log(firstUniqChar('loveleetcode')); // 2",
+            "console.log(firstUniqChar('aabb')); // -1",
+            "```"
+        ]
+    },
+    {
+        "id": 78,
+        "topicId": 6,
+        "questionId": 78,
+        "question": "How do you reverse a string?",
+        "answer": [
+            "You can reverse a string by converting it to an array, reversing the array, and joining it back into a string.",
+            "```js",
+            "function reverseString(s) {",
+            "  return s.split('').reverse().join('');",
+            "}",
+            "// Usage:",
+            "console.log(reverseString('hello')); // 'olleh'",
+            "console.log(reverseString('world')); // 'dlrow'",
+            "```"
+        ]
+    },
+    {
+        "id": 79,
+        "topicId": 6,
+        "questionId": 79,
+        "question": "How do you check if a string is a palindrome?",
+        "answer": [
+            "You can check if a string is a palindrome by comparing it to its reversed version.",
+            "```js",
+            "function isPalindrome(s) {",
+            "  const cleaned = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();",
+            "  const reversed = cleaned.split('').reverse().join('');",
+            "  return cleaned === reversed;",
+            "}",
+            "// Usage:",
+            "console.log(isPalindrome('A man, a plan, a canal: Panama')); // true",
+            "console.log(isPalindrome('race a car')); // false",
+            "```"
+        ]
+    },
+    {
+        "id": 80,
+        "topicId": 6,
+        "questionId": 80,
+        "question": "How do you find the longest common prefix among an array of strings?",
+        "answer": [
+            "You can find the longest common prefix by comparing characters of each string at the same position.",
+            "```js",
+            "function longestCommonPrefix(strs) {",
+            "  if (!strs.length) return '';",
+            "  let prefix = strs[0];",
+            "  for (let i = 1; i < strs.length; i++) {",
+            "    while (strs[i].indexOf(prefix) !== 0) {",
+            "      prefix = prefix.slice(0, -1);",
+            "      if (prefix === '') return '';",
+            "    }",
+            "  }",
+            "  return prefix;",
+            "}",
+            "// Usage:",
+            "console.log(longestCommonPrefix(['flower', 'flow', 'flight'])); // 'fl'",
+            "console.log(longestCommonPrefix(['dog', 'racecar', 'car'])); // ''",
+            "```"
+        ]
+    },
+    {
+        "id": 81,
+        "topicId": 6,
+        "questionId": 81,
+        "question": "How do you remove duplicates from an array?",
+        "answer": [
+            "You can remove duplicates from an array by converting it to a Set and back to an array.",
+            "```js",
+            "function removeDuplicates(arr) {",
+            "  return [...new Set(arr)];",
+            "}",
+            "// Usage:",
+            "console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // [1, 2, 3, 4, 5]",
+            "console.log(removeDuplicates(['a', 'b', 'a', 'c', 'b'])); // ['a', 'b', 'c']",
+            "```"
+        ]
+    },
+    {
+        "id": 82,
+        "topicId": 6,
+        "questionId": 82,
+        "question": "How do you rotate an array to the right by k steps?",
+        "answer": [
+            "You can rotate an array to the right by k steps using array slicing.",
+            "```js",
+            "function rotateArray(arr, k) {",
+            "  k = k % arr.length;",
+            "  return arr.slice(-k).concat(arr.slice(0, -k));",
+            "}",
+            "// Usage:",
+            "console.log(rotateArray([1, 2, 3, 4, 5, 6, 7], 3)); // [5, 6, 7, 1, 2, 3, 4]",
+            "console.log(rotateArray([-1, -100, 3, 99], 2)); // [3, 99, -1, -100]",
+            "```"
+        ]
+    },
+    {
+        "id": 83,
+        "topicId": 6,
+        "questionId": 83,
+        "question": "How do you find the maximum subarray sum using Kadane's Algorithm?",
+        "answer": [
+            "You can find the maximum subarray sum using Kadane's Algorithm by iterating through the array and keeping track of the current and maximum sums.",
+            "```js",
+            "function maxSubArray(nums) {",
+            "  let maxSoFar = nums[0];",
+            "  let maxEndingHere = nums[0];",
+            "  for (let i = 1; i < nums.length; i++) {",
+            "    maxEndingHere = Math.max(nums[i], maxEndingHere + nums[i]);",
+            "    maxSoFar = Math.max(maxSoFar, maxEndingHere);",
+            "  }",
+            "  return maxSoFar;",
+            "}",
+            "// Usage:",
+            "console.log(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // 6",
+            "console.log(maxSubArray([1])); // 1",
+            "console.log(maxSubArray([5, 4, -1, 7, 8])); // 23",
+            "```"
+        ]
+    },
+    {
+        "id": 84,
+        "topicId": 6,
+        "questionId": 84,
+        "question": "How do you find the intersection of two arrays?",
+        "answer": [
+            "You can find the intersection of two arrays using a Set.",
+            "```js",
+            "function intersect(nums1, nums2) {",
+            "  const set1 = new Set(nums1);",
+            "  const set2 = new Set(nums2);",
+            "  return [...set1].filter(num => set2.has(num));",
+            "}",
+            "// Usage:",
+            "console.log(intersect([1, 2, 2, 1], [2, 2])); // [2]",
+            "console.log(intersect([4, 9, 5], [9, 4, 9, 8, 4])); // [4, 9]",
+            "```"
+        ]
+    },
+    {
+        "id": 85,
+        "topicId": 6,
+        "questionId": 85,
+        "question": "How do you merge two sorted arrays?",
+        "answer": [
+            "You can merge two sorted arrays by iterating through both and comparing elements.",
+            "```js",
+            "function mergeArrays(nums1, m, nums2, n) {",
+            "  let i = m - 1;",
+            "  let j = n - 1;",
+            "  let k = m + n - 1;",
+            "  while (i >= 0 && j >= 0) {",
+            "    if (nums1[i] > nums2[j]) {",
+            "      nums1[k--] = nums1[i--];",
+            "    } else {",
+            "      nums1[k--] = nums2[j--];",
+            "    }",
+            "  }",
+            "  while (j >= 0) {",
+            "    nums1[k--] = nums2[j--];",
+            "  }",
+            "}",
+            "// Usage:",
+            "const nums1 = [1, 2, 3, 0, 0, 0];",
+            "const nums2 = [2, 5, 6];",
+            "mergeArrays(nums1, 3, nums2, 3);",
+            "console.log(nums1); // [1, 2, 2, 3, 5, 6]",
+            "```"
+        ]
+    },
+    {
+        "id": 86,
+        "topicId": 6,
+        "questionId": 86,
+        "question": "How do you find the maximum product of two elements in an array?",
+        "answer": [
+            "You can find the maximum product of two elements by sorting the array and comparing the products of the two largest and two smallest elements.",
+            "```js",
+            "function maxProduct(nums) {",
+            "  nums.sort((a, b) => a - b);",
+            "  const n = nums.length;",
+            "  return Math.max(nums[0] * nums[1], nums[n - 1] * nums[n - 2]);",
+            "}",
+            "// Usage:",
+            "console.log(maxProduct([1, 5, 4, 5])); // 25",
+            "console.log(maxProduct([3, 7])); // 21",
+            "console.log(maxProduct([-10, -10, 5, 2])); // 100",
+            "```"
+        ]
+    }
+]

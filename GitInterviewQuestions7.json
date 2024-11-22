@@ -1,0 +1,569 @@
+[
+    {
+        "id": 1,
+        "topicId": 7,
+        "questionId": 1,
+        "question": "What is Git?",
+        "answer": [
+            "Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+        ]
+    },
+    {
+        "id": 2,
+        "topicId": 7,
+        "questionId": 2,
+        "question": "What is a repository in Git?",
+        "answer": [
+            "A repository in Git is a directory or storage space where your projects reside. It contains all the project files and the entire history of changes made to those files."
+        ]
+    },
+    {
+        "id": 3,
+        "topicId": 7,
+        "questionId": 3,
+        "question": "How do you create a new Git repository?",
+        "answer": [
+            "To create a new Git repository, you use the command:",
+            "```shell",
+            "git init",
+            "```",
+            "inside the project directory."
+        ]
+    },
+    {
+        "id": 4,
+        "topicId": 7,
+        "questionId": 4,
+        "question": "What is a commit in Git?",
+        "answer": [
+            "A commit in Git is a snapshot of your repository at a specific point in time. It is used to record changes to the repository."
+        ]
+    },
+    {
+        "id": 5,
+        "topicId": 7,
+        "questionId": 5,
+        "question": "How do you create a commit in Git?",
+        "answer": [
+            "To create a commit, you first stage the changes using:",
+            "```shell",
+            "git add .",
+            "```",
+            "then commit them using:",
+            "```shell",
+            "git commit -m 'commit message'",
+            "```"
+        ]
+    },
+    {
+        "id": 6,
+        "topicId": 7,
+        "questionId": 6,
+        "question": "What is a branch in Git?",
+        "answer": [
+            "A branch in Git is a lightweight movable pointer to a commit. It allows you to work on different versions of a repository simultaneously."
+        ]
+    },
+    {
+        "id": 7,
+        "topicId": 7,
+        "questionId": 7,
+        "question": "How do you create a new branch in Git?",
+        "answer": [
+            "To create a new branch, you use the command:",
+            "```shell",
+            "git branch branch_name",
+            "```"
+        ]
+    },
+    {
+        "id": 8,
+        "topicId": 7,
+        "questionId": 8,
+        "question": "How do you switch to a different branch in Git?",
+        "answer": [
+            "To switch to a different branch, you use the command:",
+            "```shell",
+            "git checkout branch_name",
+            "```"
+        ]
+    },
+    {
+        "id": 9,
+        "topicId": 7,
+        "questionId": 9,
+        "question": "What is a merge in Git?",
+        "answer": [
+            "A merge in Git is the process of combining the changes from two branches into a single branch."
+        ]
+    },
+    {
+        "id": 10,
+        "topicId": 7,
+        "questionId": 10,
+        "question": "How do you merge branches in Git?",
+        "answer": [
+            "To merge branches, you first switch to the branch you want to merge into, then use the command:",
+            "```shell",
+            "git merge branch_name",
+            "```"
+        ]
+    },
+    {
+        "id": 11,
+        "topicId": 7,
+        "questionId": 11,
+        "question": "What is a pull request in Git?",
+        "answer": [
+            "A pull request is a way to propose changes to a repository. It allows the project maintainers to review the changes before merging them into the main branch."
+        ]
+    },
+    {
+        "id": 12,
+        "topicId": 7,
+        "questionId": 12,
+        "question": "How do you create a pull request in GitHub?",
+        "answer": [
+            "To create a pull request in GitHub, you navigate to the repository, switch to the branch with your changes, and click the 'New pull request' button."
+        ]
+    },
+    {
+        "id": 13,
+        "topicId": 7,
+        "questionId": 13,
+        "question": "What is a fork in Git?",
+        "answer": [
+            "A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project."
+        ]
+    },
+    {
+        "id": 14,
+        "topicId": 7,
+        "questionId": 14,
+        "question": "How do you fork a repository on GitHub?",
+        "answer": [
+            "To fork a repository on GitHub, you click the 'Fork' button at the top right of the repository page."
+        ]
+    },
+    {
+        "id": 15,
+        "topicId": 7,
+        "questionId": 15,
+        "question": "What is a clone in Git?",
+        "answer": [
+            "A clone is a copy of a repository that is downloaded from a server to your local machine. It includes the entire history of the repository."
+        ]
+    },
+    {
+        "id": 16,
+        "topicId": 7,
+        "questionId": 16,
+        "question": "How do you clone a repository in Git?",
+        "answer": [
+            "To clone a repository, you use the command:",
+            "```shell",
+            "git clone repository_url",
+            "```"
+        ]
+    },
+    {
+        "id": 17,
+        "topicId": 7,
+        "questionId": 17,
+        "question": "What is a remote repository in Git?",
+        "answer": [
+            "A remote repository is a version of your project that is hosted on the internet or network, allowing multiple developers to collaborate."
+        ]
+    },
+    {
+        "id": 18,
+        "topicId": 7,
+        "questionId": 18,
+        "question": "How do you add a remote repository in Git?",
+        "answer": [
+            "To add a remote repository, you use the command:",
+            "```shell",
+            "git remote add name url",
+            "```"
+        ]
+    },
+    {
+        "id": 19,
+        "topicId": 7,
+        "questionId": 19,
+        "question": "What is `git status`?",
+        "answer": [
+            "The `git status` command displays the state of the working directory and the staging area. It shows which changes have been staged, which haven't, and which files aren't being tracked by Git.",
+            "```shell",
+            "git status",
+            "```"
+        ]
+    },
+    {
+        "id": 20,
+        "topicId": 7,
+        "questionId": 20,
+        "question": "What is `git diff`?",
+        "answer": [
+            "The `git diff` command shows the differences between the working directory and the staging area.",
+            "```shell",
+            "git diff",
+            "```"
+        ]
+    },
+    {
+        "id": 21,
+        "topicId": 7,
+        "questionId": 21,
+        "question": "What is `git log`?",
+        "answer": [
+            "The `git log` command shows the commit history for the repository.",
+            "```shell",
+            "git log",
+            "```"
+        ]
+    },
+    {
+        "id": 22,
+        "topicId": 7,
+        "questionId": 22,
+        "question": "What is `git fetch`?",
+        "answer": [
+            "The `git fetch` command downloads commits, files, and refs from a remote repository into your local repository without merging them.",
+            "```shell",
+            "git fetch",
+            "```"
+        ]
+    },
+    {
+        "id": 23,
+        "topicId": 7,
+        "questionId": 23,
+        "question": "What is `git pull`?",
+        "answer": [
+            "The `git pull` command fetches and merges changes from a remote repository into the current branch.",
+            "```shell",
+            "git pull",
+            "```"
+        ]
+    },
+    {
+        "id": 24,
+        "topicId": 7,
+        "questionId": 24,
+        "question": "What is `git push`?",
+        "answer": [
+            "The `git push` command uploads local repository content to a remote repository.",
+            "```shell",
+            "git push",
+            "```"
+        ]
+    },
+    {
+        "id": 25,
+        "topicId": 7,
+        "questionId": 25,
+        "question": "What is a conflict in Git?",
+        "answer": [
+            "A conflict in Git occurs when two branches have changes to the same part of a file and Git cannot automatically merge them."
+        ]
+    },
+    {
+        "id": 26,
+        "topicId": 7,
+        "questionId": 26,
+        "question": "How do you resolve conflicts in Git?",
+        "answer": [
+            "To resolve conflicts in Git, you manually edit the conflicted file to keep the desired changes and then commit the resolved file using:",
+            "```shell",
+            "git add resolved_file",
+            "git commit",
+            "```"
+        ]
+    },
+    {
+        "id": 27,
+        "topicId": 7,
+        "questionId": 27,
+        "question": "What is `git stash`?",
+        "answer": [
+            "The `git stash` command temporarily saves changes in the working directory that are not ready to be committed, allowing you to switch branches without committing changes.",
+            "```shell",
+            "git stash",
+            "```"
+        ]
+    },
+    {
+        "id": 28,
+        "topicId": 7,
+        "questionId": 28,
+        "question": "How do you apply stashed changes in Git?",
+        "answer": [
+            "To apply stashed changes, you use the command:",
+            "```shell",
+            "git stash apply",
+            "```"
+        ]
+    },
+    {
+        "id": 29,
+        "topicId": 7,
+        "questionId": 29,
+        "question": "What is `git rebase`?",
+        "answer": [
+            "The `git rebase` command is used to move or combine a sequence of commits to a new base commit.",
+            "```shell",
+            "git rebase branch_name",
+            "```"
+        ]
+    },
+    {
+        "id": 30,
+        "topicId": 7,
+        "questionId": 30,
+        "question": "How do you revert a commit in Git?",
+        "answer": [
+            "To revert a commit, you use the command:",
+            "```shell",
+            "git revert commit_id",
+            "```"
+        ]
+    },
+    {
+        "id": 31,
+        "topicId": 7,
+        "questionId": 31,
+        "question": "What is a tag in Git?",
+        "answer": [
+            "A tag in Git is a reference to a specific point in the repository's history, typically used to mark release points."
+        ]
+    },
+    {
+        "id": 32,
+        "topicId": 7,
+        "questionId": 32,
+        "question": "How do you create a tag in Git?",
+        "answer": [
+            "To create a tag, you use the command:",
+            "```shell",
+            "git tag tag_name",
+            "```"
+        ]
+    },
+    {
+        "id": 33,
+        "topicId": 7,
+        "questionId": 33,
+        "question": "What is `git checkout`?",
+        "answer": [
+            "The `git checkout` command is used to switch between branches or to restore files in the working directory.",
+            "```shell",
+            "git checkout branch_name",
+            "```"
+        ]
+    },
+    {
+        "id": 34,
+        "topicId": 7,
+        "questionId": 34,
+        "question": "What is `git reset`?",
+        "answer": [
+            "The `git reset` command is used to undo changes in the repository by resetting the current HEAD to a specified state.",
+            "```shell",
+            "git reset commit_id",
+            "```"
+        ]
+    },
+    {
+        "id": 35,
+        "topicId": 7,
+        "questionId": 35,
+        "question": "What is `git rm`?",
+        "answer": [
+            "The `git rm` command is used to remove files from the working directory and the index.",
+            "```shell",
+            "git rm file_name",
+            "```"
+        ]
+    },
+    {
+        "id": 36,
+        "topicId": 7,
+        "questionId": 36,
+        "question": "What is `git mv`?",
+        "answer": [
+            "The `git mv` command is used to move or rename files in the working directory.",
+            "```shell",
+            "git mv old_name new_name",
+            "```"
+        ]
+    },
+    {
+        "id": 37,
+        "topicId": 7,
+        "questionId": 37,
+        "question": "What is `git blame`?",
+        "answer": [
+            "The `git blame` command shows what revision and author last modified each line of a file.",
+            "```shell",
+            "git blame file_name",
+            "```"
+        ]
+    },
+    {
+        "id": 38,
+        "topicId": 7,
+        "questionId": 38,
+        "question": "What is `git cherry-pick`?",
+        "answer": [
+            "The `git cherry-pick` command applies the changes introduced by some existing commits.",
+            "```shell",
+            "git cherry-pick commit_id",
+            "```"
+        ]
+    },
+    {
+        "id": 39,
+        "topicId": 7,
+        "questionId": 39,
+        "question": "What is `git reflog`?",
+        "answer": [
+            "The `git reflog` command shows a history of all the actions (like checkouts and commits) that were done in the repository.",
+            "```shell",
+            "git reflog",
+            "```"
+        ]
+    },
+    {
+        "id": 40,
+        "topicId": 7,
+        "questionId": 40,
+        "question": "What is `git bisect`?",
+        "answer": [
+            "The `git bisect` command is used to find the commit that introduced a bug by using binary search.",
+            "```shell",
+            "git bisect start",
+            "```"
+        ]
+    },
+    {
+        "id": 41,
+        "topicId": 7,
+        "questionId": 41,
+        "question": "How do you view the commit history for a file in Git?",
+        "answer": [
+            "To view the commit history for a file, you use the command:",
+            "```shell",
+            "git log file_name",
+            "```"
+        ]
+    },
+    {
+        "id": 42,
+        "topicId": 7,
+        "questionId": 42,
+        "question": "What is `git ls-files`?",
+        "answer": [
+            "The `git ls-files` command shows information about files in the index and the working directory.",
+            "```shell",
+            "git ls-files",
+            "```"
+        ]
+    },
+    {
+        "id": 43,
+        "topicId": 7,
+        "questionId": 43,
+        "question": "What is `git shortlog`?",
+        "answer": [
+            "The `git shortlog` command summarizes the commit history, grouping commits by author.",
+            "```shell",
+            "git shortlog",
+            "```"
+        ]
+    },
+    {
+        "id": 44,
+        "topicId": 7,
+        "questionId": 44,
+        "question": "What is `git show`?",
+        "answer": [
+            "The `git show` command displays detailed information about a specific commit.",
+            "```shell",
+            "git show commit_id",
+            "```"
+        ]
+    },
+    {
+        "id": 45,
+        "topicId": 7,
+        "questionId": 45,
+        "question": "What is `git archive`?",
+        "answer": [
+            "The `git archive` command creates an archive file (like a tar or zip file) from the contents of the repository.",
+            "```shell",
+            "git archive --format=zip HEAD > archive.zip",
+            "```"
+        ]
+    },
+    {
+        "id": 46,
+        "topicId": 7,
+        "questionId": 46,
+        "question": "What is `git clean`?",
+        "answer": [
+            "The `git clean` command removes untracked files from the working directory.",
+            "```shell",
+            "git clean -f",
+            "```"
+        ]
+    },
+    {
+        "id": 47,
+        "topicId": 7,
+        "questionId": 47,
+        "question": "What is `git submodule`?",
+        "answer": [
+            "The `git submodule` command manages external repositories within a main repository.",
+            "```shell",
+            "git submodule add repository_url path",
+            "```"
+        ]
+    },
+    {
+        "id": 48,
+        "topicId": 7,
+        "questionId": 48,
+        "question": "How do you remove a remote repository in Git?",
+        "answer": [
+            "To remove a remote repository, you use the command:",
+            "```shell",
+            "git remote remove remote_name",
+            "```"
+        ]
+    },
+    {
+        "id": 49,
+        "topicId": 7,
+        "questionId": 49,
+        "question": "What is `git remote`?",
+        "answer": [
+            "The `git remote` command manages the set of tracked repositories.",
+            "```shell",
+            "git remote -v",
+            "```"
+        ]
+    },
+    {
+        "id": 50,
+        "topicId": 7,
+        "questionId": 50,
+        "question": "What is `git gc`?",
+        "answer": [
+            "The `git gc` command optimizes the repository by cleaning up unnecessary files and optimizing the local repository.",
+            "```shell",
+            "git gc",
+            "```"
+        ]
+    }
+]
